@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+flood_env/
+node_modules/

@@ -18,7 +18,7 @@ export default function Home() {
   
   const [loginForm, setLoginForm] = useState({ userId: '', password: '' });
   const [forgotForm, setForgotForm] = useState({ userId: '', newPassword: '' });
-  const [signupForm, setSignupForm] = useState({ fullName: '', userId: '', password: '', confirmPassword: '', district: 'Hyderabad', state: 'Telangana' });
+  const [signupForm, setSignupForm] = useState({ fullName: '', userId: '', password: '', confirmPassword: '', district: 'Hyderabad', state: 'Telangana', type: 'user', access: '' });
 
   // Check if already logged in – use client-side navigation to avoid full reload
   useEffect(() => {
@@ -161,8 +161,11 @@ export default function Home() {
           fullName: signupForm.fullName,
           userId: signupForm.userId,
           password: signupForm.password,
-          district: signupForm.district,
-          state: signupForm.state,
+          type: signupForm.type,
+          // send either access (planner) or district/state (user)
+          ...(signupForm.type === 'planner'
+            ? { access: signupForm.access }
+            : { district: signupForm.district, state: signupForm.state }),
         }),
       });
       const data = await res.json();
@@ -173,7 +176,12 @@ export default function Home() {
       }
       const user = data.user;
       sessionStorage.setItem('floodsense_user', JSON.stringify(user));
-      navigate('/UserDashboard');
+      // redirect based on account type
+      if (user.type === 'planner') {
+        navigate('/PlannerDashboard');
+      } else {
+        navigate('/UserDashboard');
+      }
     } catch (err) {
       setError('Network error. Ensure backend is running on port 5001.');
       setLoading(false);
@@ -309,6 +317,30 @@ export default function Home() {
             ) : (
               /* Signup Form */
               <form onSubmit={handleSignup} className="space-y-4">
+                {/* account type selection */}
+                <div className="flex items-center gap-6 mb-4">
+                  <label className="flex items-center gap-2">
+                    <input
+                      type="radio"
+                      name="accountType"
+                      value="user"
+                      checked={signupForm.type === 'user'}
+                      onChange={() => setSignupForm({ ...signupForm, type: 'user' })}
+                    />
+                    <span>User</span>
+                  </label>
+                  <label className="flex items-center gap-2">
+                    <input
+                      type="radio"
+                      name="accountType"
+                      value="planner"
+                      checked={signupForm.type === 'planner'}
+                      onChange={() => setSignupForm({ ...signupForm, type: 'planner' })}
+                    />
+                    <span>City Planner</span>
+                  </label>
+                </div>
+
                 <div className="relative">
                   <User className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[#1565c0]" />
                   <Input
@@ -333,27 +365,44 @@ export default function Home() {
                   />
                 </div>
                 
-                <div className="relative">
-                  <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[#1565c0]" />
-                  <Input
-                    type="text"
-                    placeholder="District (optional)"
-                    value={signupForm.district}
-                    onChange={(e) => setSignupForm({ ...signupForm, district: e.target.value })}
-                    className="pl-12 h-12 rounded-xl border-[#bbdefb] focus:border-[#0288d1] focus:ring-[#0288d1]/20"
-                  />
-                </div>
-                <div className="relative">
-                  <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[#1565c0]" />
-                  <select
-                    value={signupForm.state}
-                    onChange={(e) => setSignupForm({ ...signupForm, state: e.target.value })}
-                    className="w-full h-12 pl-12 pr-4 rounded-xl border border-[#bbdefb] focus:border-[#0288d1] focus:ring-[#0288d1]/20 bg-background text-foreground"
-                  >
-                    <option value="Andhra Pradesh">Andhra Pradesh</option>
-                    <option value="Telangana">Telangana</option>
-                  </select>
-                </div>
+                {signupForm.type === 'user' && (
+                  <>
+                    <div className="relative">
+                      <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[#1565c0]" />
+                      <Input
+                        type="text"
+                        placeholder="District (optional)"
+                        value={signupForm.district}
+                        onChange={(e) => setSignupForm({ ...signupForm, district: e.target.value })}
+                        className="pl-12 h-12 rounded-xl border-[#bbdefb] focus:border-[#0288d1] focus:ring-[#0288d1]/20"
+                      />
+                    </div>
+                    <div className="relative">
+                      <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[#1565c0]" />
+                      <select
+                        value={signupForm.state}
+                        onChange={(e) => setSignupForm({ ...signupForm, state: e.target.value })}
+                        className="w-full h-12 pl-12 pr-4 rounded-xl border border-[#bbdefb] focus:border-[#0288d1] focus:ring-[#0288d1]/20 bg-background text-foreground"
+                      >
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Telangana">Telangana</option>
+                      </select>
+                    </div>
+                  </>
+                )}
+                {signupForm.type === 'planner' && (
+                  <div className="relative">
+                    <Shield className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[#1565c0]" />
+                    <Input
+                      type="text"
+                      placeholder="Planner access (state/region)"
+                      value={signupForm.access}
+                      onChange={(e) => setSignupForm({ ...signupForm, access: e.target.value })}
+                      className="pl-12 h-12 rounded-xl border-[#bbdefb] focus:border-[#0288d1] focus:ring-[#0288d1]/20"
+                      required={signupForm.type === 'planner'}
+                    />
+                  </div>
+                )}
                 <div className="relative">
                   <Lock className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[#1565c0]" />
                   <Input

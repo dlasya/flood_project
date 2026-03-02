@@ -44,5 +44,37 @@
     "type": "user",
     "district": "Hyderabad",
     "state": "Telangana"
+  },
+  "test.user": {
+    "password": "NewPass!",
+    "name": "Test User",
+    "type": "user",
+    "district": "TestDistrict",
+    "state": "TestState"
+  },
+  "planner.one": {
+    "password": "Planner123",
+    "name": "Planner One",
+    "type": "planner",
+    "access": "SomeRegion"
+  },
+  "sanjutha21": {
+    "password": "sanjutha21",
+    "name": "sanjutha",
+    "type": "user",
+    "district": "Hyderabad",
+    "state": "Telangana"
+  },
+  "mano22": {
+    "password": "mano",
+    "name": "mano",
+    "type": "planner",
+    "access": "Telangana"
+  },
+  "mano21": {
+    "password": "mano",
+    "name": "mano21",
+    "type": "planner",
+    "access": "Telangana"
   }
 }

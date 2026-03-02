@@ -122,8 +122,12 @@ def signup():
         full_name = (data.get('fullName') or '').strip()
         user_id = (data.get('userId') or '').strip().lower()
         password = data.get('password') or ''
+        # allow explicit type or default to regular user
+        user_type = (data.get('type') or 'user').strip().lower()
+        # planner accounts require an access field, users can provide district/state
         district = (data.get('district') or 'Hyderabad').strip()
         state = (data.get('state') or 'Telangana').strip()
+        access = (data.get('access') or '').strip()
 
         if not full_name:
             return jsonify({'error': 'Full name is required'}), 400
@@ -131,30 +135,45 @@ def signup():
             return jsonify({'error': 'User ID is required'}), 400
         if not password:
             return jsonify({'error': 'Password is required'}), 400
+        if user_type not in ('user', 'planner'):
+            return jsonify({'error': 'Invalid account type'}), 400
+        if user_type == 'planner' and not access:
+            return jsonify({'error': 'Planner access value is required'}), 400
 
         users = _read_users()
         if user_id in users:
             return jsonify({'error': 'Username already taken'}), 400
 
-        users[user_id] = {
+        # build the record based on user_type
+        record = {
             'password': password,
             'name': full_name,
-            'type': 'user',
-            'district': district,
-            'state': state,
+            'type': user_type,
         }
+        if user_type == 'planner':
+            record['access'] = access
+        else:
+            record['district'] = district
+            record['state'] = state
+
+        users[user_id] = record
         _write_users(users)
 
         # Return user data for session storage (no password)
+        resp_user = {
+            'userId': user_id,
+            'name': full_name,
+            'type': user_type,
+        }
+        if user_type == 'planner':
+            resp_user['access'] = access
+        else:
+            resp_user['district'] = district
+            resp_user['state'] = state
+
         return jsonify({
             'success': True,
-            'user': {
-                'userId': user_id,
-                'name': full_name,
-                'type': 'user',
-                'district': district,
-                'state': state,
-            },
+            'user': resp_user,
         }), 201
 
     except Exception as e:
