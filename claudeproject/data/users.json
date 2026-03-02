@@ -1,0 +1,48 @@
+{
+  "arjun.sharma": {
+    "password": "Flood@2024",
+    "name": "Arjun Sharma",
+    "type": "user",
+    "district": "Hyderabad",
+    "state": "Telangana"
+  },
+  "priya.reddy": {
+    "password": "Urban@5678",
+    "name": "Priya Reddy",
+    "type": "user",
+    "district": "Visakhapatnam",
+    "state": "Andhra Pradesh"
+  },
+  "kiran.kumar": {
+    "password": "Rain#9012",
+    "name": "Kiran Kumar",
+    "type": "user",
+    "district": "Warangal",
+    "state": "Telangana"
+  },
+  "planner.ap": {
+    "password": "AP@Admin2024",
+    "name": "AP State Planner",
+    "type": "planner",
+    "access": "Andhra Pradesh"
+  },
+  "planner.tg": {
+    "password": "TG@Admin2024",
+    "name": "TG State Planner",
+    "type": "planner",
+    "access": "Telangana"
+  },
+  "admin.floodsense": {
+    "password": "FloodSense@Master",
+    "name": "FloodSense Admin",
+    "type": "planner",
+    "access": "Both States"
+  },
+  "lasya24": {
+    "password": "Lasya24",
+    "name": "Lasya",
+    "type": "user",
+    "district": "Hyderabad",
+    "state": "Telangana"
+  }
+}

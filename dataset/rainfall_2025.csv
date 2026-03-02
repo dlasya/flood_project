@@ -1,0 +1,661 @@
+District,State,Year,Month,Month_Number,Scenario,Data_Type,Rainfall_mm,Normal_Rainfall_mm,Departure_mm,Departure_Percent,Rainfall_Category,Flood_Probability_Percent
+Visakhapatnam,Andhra Pradesh,2025,Jan,1,Normal Year,Actual,12.5,11.0,1.5,13.6,Normal,10.9
+Visakhapatnam,Andhra Pradesh,2025,Feb,2,Normal Year,Actual,10.0,11.0,-1.0,-9.1,Normal,0.0
+Visakhapatnam,Andhra Pradesh,2025,Mar,3,Normal Year,Forecast,10.5,11.0,-0.5,-4.5,Normal,0.0
+Visakhapatnam,Andhra Pradesh,2025,Apr,4,Normal Year,Forecast,19.0,22.0,-3.0,-13.6,Normal,0.0
+Visakhapatnam,Andhra Pradesh,2025,May,5,Normal Year,Forecast,45.0,44.0,1.0,2.3,Normal,1.8
+Visakhapatnam,Andhra Pradesh,2025,Jun,6,Normal Year,Forecast,177.9,165.0,12.9,7.8,Normal,6.3
+Visakhapatnam,Andhra Pradesh,2025,Jul,7,Normal Year,Forecast,273.8,275.0,-1.2,-0.4,Normal,0.0
+Visakhapatnam,Andhra Pradesh,2025,Aug,8,Normal Year,Forecast,250.1,242.0,8.1,3.3,Normal,2.7
+Visakhapatnam,Andhra Pradesh,2025,Sep,9,Normal Year,Forecast,178.3,165.0,13.3,8.1,Normal,6.4
+Visakhapatnam,Andhra Pradesh,2025,Oct,10,Normal Year,Forecast,105.5,110.0,-4.5,-4.1,Normal,0.0
+Visakhapatnam,Andhra Pradesh,2025,Nov,11,Normal Year,Forecast,38.0,33.0,5.0,15.2,Normal,12.1
+Visakhapatnam,Andhra Pradesh,2025,Dec,12,Normal Year,Forecast,13.1,11.0,2.1,19.1,Normal,15.3
+Vizianagaram,Andhra Pradesh,2025,Jan,1,Early Monsoon,Actual,8.9,10.5,-1.6,-15.2,Normal,0.0
+Vizianagaram,Andhra Pradesh,2025,Feb,2,Early Monsoon,Actual,8.9,10.5,-1.6,-15.2,Normal,0.0
+Vizianagaram,Andhra Pradesh,2025,Mar,3,Early Monsoon,Forecast,8.9,10.5,-1.6,-15.2,Normal,0.0
+Vizianagaram,Andhra Pradesh,2025,Apr,4,Early Monsoon,Forecast,17.8,21.0,-3.2,-15.2,Normal,0.0
+Vizianagaram,Andhra Pradesh,2025,May,5,Early Monsoon,Forecast,58.8,42.0,16.8,40.0,Excess,32.0
+Vizianagaram,Andhra Pradesh,2025,Jun,6,Early Monsoon,Forecast,220.5,157.5,63.0,40.0,Excess,32.0
+Vizianagaram,Andhra Pradesh,2025,Jul,7,Early Monsoon,Forecast,223.1,262.5,-39.4,-15.0,Normal,0.0
+Vizianagaram,Andhra Pradesh,2025,Aug,8,Early Monsoon,Forecast,196.3,231.0,-34.7,-15.0,Normal,0.0
+Vizianagaram,Andhra Pradesh,2025,Sep,9,Early Monsoon,Forecast,133.9,157.5,-23.6,-15.0,Normal,0.0
+Vizianagaram,Andhra Pradesh,2025,Oct,10,Early Monsoon,Forecast,89.2,105.0,-15.8,-15.0,Normal,0.0
+Vizianagaram,Andhra Pradesh,2025,Nov,11,Early Monsoon,Forecast,26.8,31.5,-4.7,-14.9,Normal,0.0
+Vizianagaram,Andhra Pradesh,2025,Dec,12,Early Monsoon,Forecast,8.9,10.5,-1.6,-15.2,Normal,0.0
+Srikakulam,Andhra Pradesh,2025,Jan,1,Delayed Monsoon,Actual,12.7,11.5,1.2,10.4,Normal,8.3
+Srikakulam,Andhra Pradesh,2025,Feb,2,Delayed Monsoon,Actual,12.7,11.5,1.2,10.4,Normal,8.3
+Srikakulam,Andhra Pradesh,2025,Mar,3,Delayed Monsoon,Forecast,12.7,11.5,1.2,10.4,Normal,8.3
+Srikakulam,Andhra Pradesh,2025,Apr,4,Delayed Monsoon,Forecast,25.3,23.0,2.3,10.0,Normal,8.0
+Srikakulam,Andhra Pradesh,2025,May,5,Delayed Monsoon,Forecast,50.6,46.0,4.6,10.0,Normal,8.0
+Srikakulam,Andhra Pradesh,2025,Jun,6,Delayed Monsoon,Forecast,51.8,172.5,-120.7,-70.0,Deficient,0.0
+Srikakulam,Andhra Pradesh,2025,Jul,7,Delayed Monsoon,Forecast,86.2,287.5,-201.3,-70.0,Deficient,0.0
+Srikakulam,Andhra Pradesh,2025,Aug,8,Delayed Monsoon,Forecast,278.3,253.0,25.3,10.0,Normal,8.0
+Srikakulam,Andhra Pradesh,2025,Sep,9,Delayed Monsoon,Forecast,189.8,172.5,17.3,10.0,Normal,8.0
+Srikakulam,Andhra Pradesh,2025,Oct,10,Delayed Monsoon,Forecast,126.5,115.0,11.5,10.0,Normal,8.0
+Srikakulam,Andhra Pradesh,2025,Nov,11,Delayed Monsoon,Forecast,38.0,34.5,3.5,10.1,Normal,8.1
+Srikakulam,Andhra Pradesh,2025,Dec,12,Delayed Monsoon,Forecast,12.7,11.5,1.2,10.4,Normal,8.3
+East Godavari,Andhra Pradesh,2025,Jan,1,Flood Year,Actual,22.2,12.0,10.2,85.0,Extremely Excess,68.0
+East Godavari,Andhra Pradesh,2025,Feb,2,Flood Year,Actual,26.1,12.0,14.1,117.5,Extremely Excess,94.0
+East Godavari,Andhra Pradesh,2025,Mar,3,Flood Year,Forecast,25.8,12.0,13.8,115.0,Extremely Excess,92.0
+East Godavari,Andhra Pradesh,2025,Apr,4,Flood Year,Forecast,47.2,24.0,23.2,96.7,Extremely Excess,77.3
+East Godavari,Andhra Pradesh,2025,May,5,Flood Year,Forecast,99.0,48.0,51.0,106.2,Extremely Excess,85.0
+East Godavari,Andhra Pradesh,2025,Jun,6,Flood Year,Forecast,318.0,180.0,138.0,76.7,Extremely Excess,61.3
+East Godavari,Andhra Pradesh,2025,Jul,7,Flood Year,Forecast,613.3,300.0,313.3,104.4,Extremely Excess,83.5
+East Godavari,Andhra Pradesh,2025,Aug,8,Flood Year,Forecast,389.9,264.0,125.9,47.7,Excess,38.2
+East Godavari,Andhra Pradesh,2025,Sep,9,Flood Year,Forecast,332.4,180.0,152.4,84.7,Extremely Excess,67.7
+East Godavari,Andhra Pradesh,2025,Oct,10,Flood Year,Forecast,173.5,120.0,53.5,44.6,Excess,35.7
+East Godavari,Andhra Pradesh,2025,Nov,11,Flood Year,Forecast,58.2,36.0,22.2,61.7,Excess,49.3
+East Godavari,Andhra Pradesh,2025,Dec,12,Flood Year,Forecast,17.8,12.0,5.8,48.3,Excess,38.7
+West Godavari,Andhra Pradesh,2025,Jan,1,Drought Year,Actual,2.5,10.5,-8.0,-76.2,Deficient,0.0
+West Godavari,Andhra Pradesh,2025,Feb,2,Drought Year,Actual,3.7,10.5,-6.8,-64.8,Deficient,0.0
+West Godavari,Andhra Pradesh,2025,Mar,3,Drought Year,Forecast,3.5,10.5,-7.0,-66.7,Deficient,0.0
+West Godavari,Andhra Pradesh,2025,Apr,4,Drought Year,Forecast,7.2,21.0,-13.8,-65.7,Deficient,0.0
+West Godavari,Andhra Pradesh,2025,May,5,Drought Year,Forecast,10.8,42.0,-31.2,-74.3,Deficient,0.0
+West Godavari,Andhra Pradesh,2025,Jun,6,Drought Year,Forecast,84.2,157.5,-73.3,-46.5,Deficient,0.0
+West Godavari,Andhra Pradesh,2025,Jul,7,Drought Year,Forecast,67.2,262.5,-195.3,-74.4,Deficient,0.0
+West Godavari,Andhra Pradesh,2025,Aug,8,Drought Year,Forecast,131.3,231.0,-99.7,-43.2,Deficient,0.0
+West Godavari,Andhra Pradesh,2025,Sep,9,Drought Year,Forecast,38.9,157.5,-118.6,-75.3,Deficient,0.0
+West Godavari,Andhra Pradesh,2025,Oct,10,Drought Year,Forecast,36.8,105.0,-68.2,-65.0,Deficient,0.0
+West Godavari,Andhra Pradesh,2025,Nov,11,Drought Year,Forecast,17.2,31.5,-14.3,-45.4,Deficient,0.0
+West Godavari,Andhra Pradesh,2025,Dec,12,Drought Year,Forecast,3.3,10.5,-7.2,-68.6,Deficient,0.0
+Krishna,Andhra Pradesh,2025,Jan,1,Cyclone Risk,Actual,9.0,9.5,-0.5,-5.3,Normal,0.0
+Krishna,Andhra Pradesh,2025,Feb,2,Cyclone Risk,Actual,9.0,9.5,-0.5,-5.3,Normal,0.0
+Krishna,Andhra Pradesh,2025,Mar,3,Cyclone Risk,Forecast,9.0,9.5,-0.5,-5.3,Normal,0.0
+Krishna,Andhra Pradesh,2025,Apr,4,Cyclone Risk,Forecast,18.1,19.0,-0.9,-4.7,Normal,0.0
+Krishna,Andhra Pradesh,2025,May,5,Cyclone Risk,Forecast,36.1,38.0,-1.9,-5.0,Normal,0.0
+Krishna,Andhra Pradesh,2025,Jun,6,Cyclone Risk,Forecast,135.4,142.5,-7.1,-5.0,Normal,0.0
+Krishna,Andhra Pradesh,2025,Jul,7,Cyclone Risk,Forecast,225.6,237.5,-11.9,-5.0,Normal,0.0
+Krishna,Andhra Pradesh,2025,Aug,8,Cyclone Risk,Forecast,198.5,209.0,-10.5,-5.0,Normal,0.0
+Krishna,Andhra Pradesh,2025,Sep,9,Cyclone Risk,Forecast,135.4,142.5,-7.1,-5.0,Normal,0.0
+Krishna,Andhra Pradesh,2025,Oct,10,Cyclone Risk,Forecast,237.5,95.0,142.5,150.0,Extremely Excess,100.0
+Krishna,Andhra Pradesh,2025,Nov,11,Cyclone Risk,Forecast,71.2,28.5,42.7,149.8,Extremely Excess,100.0
+Krishna,Andhra Pradesh,2025,Dec,12,Cyclone Risk,Forecast,9.0,9.5,-0.5,-5.3,Normal,0.0
+Guntur,Andhra Pradesh,2025,Jan,1,Normal Year,Actual,8.3,9.0,-0.7,-7.8,Normal,0.0
+Guntur,Andhra Pradesh,2025,Feb,2,Normal Year,Actual,8.0,9.0,-1.0,-11.1,Normal,0.0
+Guntur,Andhra Pradesh,2025,Mar,3,Normal Year,Forecast,7.9,9.0,-1.1,-12.2,Normal,0.0
+Guntur,Andhra Pradesh,2025,Apr,4,Normal Year,Forecast,16.8,18.0,-1.2,-6.7,Normal,0.0
+Guntur,Andhra Pradesh,2025,May,5,Normal Year,Forecast,33.6,36.0,-2.4,-6.7,Normal,0.0
+Guntur,Andhra Pradesh,2025,Jun,6,Normal Year,Forecast,148.1,135.0,13.1,9.7,Normal,7.8
+Guntur,Andhra Pradesh,2025,Jul,7,Normal Year,Forecast,246.4,225.0,21.4,9.5,Normal,7.6
+Guntur,Andhra Pradesh,2025,Aug,8,Normal Year,Forecast,214.0,198.0,16.0,8.1,Normal,6.5
+Guntur,Andhra Pradesh,2025,Sep,9,Normal Year,Forecast,139.5,135.0,4.5,3.3,Normal,2.7
+Guntur,Andhra Pradesh,2025,Oct,10,Normal Year,Forecast,87.0,90.0,-3.0,-3.3,Normal,0.0
+Guntur,Andhra Pradesh,2025,Nov,11,Normal Year,Forecast,27.7,27.0,0.7,2.6,Normal,2.1
+Guntur,Andhra Pradesh,2025,Dec,12,Normal Year,Forecast,8.3,9.0,-0.7,-7.8,Normal,0.0
+Prakasam,Andhra Pradesh,2025,Jan,1,Early Monsoon,Actual,7.2,8.5,-1.3,-15.3,Normal,0.0
+Prakasam,Andhra Pradesh,2025,Feb,2,Early Monsoon,Actual,7.2,8.5,-1.3,-15.3,Normal,0.0
+Prakasam,Andhra Pradesh,2025,Mar,3,Early Monsoon,Forecast,7.2,8.5,-1.3,-15.3,Normal,0.0
+Prakasam,Andhra Pradesh,2025,Apr,4,Early Monsoon,Forecast,14.4,17.0,-2.6,-15.3,Normal,0.0
+Prakasam,Andhra Pradesh,2025,May,5,Early Monsoon,Forecast,47.6,34.0,13.6,40.0,Excess,32.0
+Prakasam,Andhra Pradesh,2025,Jun,6,Early Monsoon,Forecast,178.5,127.5,51.0,40.0,Excess,32.0
+Prakasam,Andhra Pradesh,2025,Jul,7,Early Monsoon,Forecast,180.6,212.5,-31.9,-15.0,Normal,0.0
+Prakasam,Andhra Pradesh,2025,Aug,8,Early Monsoon,Forecast,158.9,187.0,-28.1,-15.0,Normal,0.0
+Prakasam,Andhra Pradesh,2025,Sep,9,Early Monsoon,Forecast,108.4,127.5,-19.1,-15.0,Normal,0.0
+Prakasam,Andhra Pradesh,2025,Oct,10,Early Monsoon,Forecast,72.2,85.0,-12.8,-15.1,Normal,0.0
+Prakasam,Andhra Pradesh,2025,Nov,11,Early Monsoon,Forecast,21.7,25.5,-3.8,-14.9,Normal,0.0
+Prakasam,Andhra Pradesh,2025,Dec,12,Early Monsoon,Forecast,7.2,8.5,-1.3,-15.3,Normal,0.0
+Nellore,Andhra Pradesh,2025,Jan,1,Delayed Monsoon,Actual,10.8,9.8,1.0,10.2,Normal,8.2
+Nellore,Andhra Pradesh,2025,Feb,2,Delayed Monsoon,Actual,10.8,9.8,1.0,10.2,Normal,8.2
+Nellore,Andhra Pradesh,2025,Mar,3,Delayed Monsoon,Forecast,10.8,9.8,1.0,10.2,Normal,8.2
+Nellore,Andhra Pradesh,2025,Apr,4,Delayed Monsoon,Forecast,21.6,19.6,2.0,10.2,Normal,8.2
+Nellore,Andhra Pradesh,2025,May,5,Delayed Monsoon,Forecast,43.1,39.2,3.9,9.9,Normal,8.0
+Nellore,Andhra Pradesh,2025,Jun,6,Delayed Monsoon,Forecast,44.1,147.0,-102.9,-70.0,Deficient,0.0
+Nellore,Andhra Pradesh,2025,Jul,7,Delayed Monsoon,Forecast,73.5,245.0,-171.5,-70.0,Deficient,0.0
+Nellore,Andhra Pradesh,2025,Aug,8,Delayed Monsoon,Forecast,237.2,215.6,21.6,10.0,Normal,8.0
+Nellore,Andhra Pradesh,2025,Sep,9,Delayed Monsoon,Forecast,161.7,147.0,14.7,10.0,Normal,8.0
+Nellore,Andhra Pradesh,2025,Oct,10,Delayed Monsoon,Forecast,107.8,98.0,9.8,10.0,Normal,8.0
+Nellore,Andhra Pradesh,2025,Nov,11,Delayed Monsoon,Forecast,32.3,29.4,2.9,9.9,Normal,7.9
+Nellore,Andhra Pradesh,2025,Dec,12,Delayed Monsoon,Forecast,10.8,9.8,1.0,10.2,Normal,8.2
+Kurnool,Andhra Pradesh,2025,Jan,1,Flood Year,Actual,11.9,6.0,5.9,98.3,Extremely Excess,78.7
+Kurnool,Andhra Pradesh,2025,Feb,2,Flood Year,Actual,11.2,6.0,5.2,86.7,Extremely Excess,69.3
+Kurnool,Andhra Pradesh,2025,Mar,3,Flood Year,Forecast,10.7,6.0,4.7,78.3,Extremely Excess,62.7
+Kurnool,Andhra Pradesh,2025,Apr,4,Flood Year,Forecast,24.6,12.0,12.6,105.0,Extremely Excess,84.0
+Kurnool,Andhra Pradesh,2025,May,5,Flood Year,Forecast,50.8,24.0,26.8,111.7,Extremely Excess,89.3
+Kurnool,Andhra Pradesh,2025,Jun,6,Flood Year,Forecast,152.9,90.0,62.9,69.9,Excess,55.9
+Kurnool,Andhra Pradesh,2025,Jul,7,Flood Year,Forecast,290.0,150.0,140.0,93.3,Extremely Excess,74.7
+Kurnool,Andhra Pradesh,2025,Aug,8,Flood Year,Forecast,220.3,132.0,88.3,66.9,Excess,53.5
+Kurnool,Andhra Pradesh,2025,Sep,9,Flood Year,Forecast,196.1,90.0,106.1,117.9,Extremely Excess,94.3
+Kurnool,Andhra Pradesh,2025,Oct,10,Flood Year,Forecast,84.8,60.0,24.8,41.3,Excess,33.1
+Kurnool,Andhra Pradesh,2025,Nov,11,Flood Year,Forecast,32.2,18.0,14.2,78.9,Extremely Excess,63.1
+Kurnool,Andhra Pradesh,2025,Dec,12,Flood Year,Forecast,8.7,6.0,2.7,45.0,Excess,36.0
+Kadapa,Andhra Pradesh,2025,Jan,1,Drought Year,Actual,2.2,7.0,-4.8,-68.6,Deficient,0.0
+Kadapa,Andhra Pradesh,2025,Feb,2,Drought Year,Actual,4.1,7.0,-2.9,-41.4,Deficient,0.0
+Kadapa,Andhra Pradesh,2025,Mar,3,Drought Year,Forecast,3.8,7.0,-3.2,-45.7,Deficient,0.0
+Kadapa,Andhra Pradesh,2025,Apr,4,Drought Year,Forecast,2.9,14.0,-11.1,-79.3,Deficient,0.0
+Kadapa,Andhra Pradesh,2025,May,5,Drought Year,Forecast,11.7,28.0,-16.3,-58.2,Deficient,0.0
+Kadapa,Andhra Pradesh,2025,Jun,6,Drought Year,Forecast,46.3,105.0,-58.7,-55.9,Deficient,0.0
+Kadapa,Andhra Pradesh,2025,Jul,7,Drought Year,Forecast,60.1,175.0,-114.9,-65.7,Deficient,0.0
+Kadapa,Andhra Pradesh,2025,Aug,8,Drought Year,Forecast,62.8,154.0,-91.2,-59.2,Deficient,0.0
+Kadapa,Andhra Pradesh,2025,Sep,9,Drought Year,Forecast,26.4,105.0,-78.6,-74.9,Deficient,0.0
+Kadapa,Andhra Pradesh,2025,Oct,10,Drought Year,Forecast,34.6,70.0,-35.4,-50.6,Deficient,0.0
+Kadapa,Andhra Pradesh,2025,Nov,11,Drought Year,Forecast,5.5,21.0,-15.5,-73.8,Deficient,0.0
+Kadapa,Andhra Pradesh,2025,Dec,12,Drought Year,Forecast,1.9,7.0,-5.1,-72.9,Deficient,0.0
+Anantapur,Andhra Pradesh,2025,Jan,1,Cyclone Risk,Actual,5.2,5.5,-0.3,-5.5,Normal,0.0
+Anantapur,Andhra Pradesh,2025,Feb,2,Cyclone Risk,Actual,5.2,5.5,-0.3,-5.5,Normal,0.0
+Anantapur,Andhra Pradesh,2025,Mar,3,Cyclone Risk,Forecast,5.2,5.5,-0.3,-5.5,Normal,0.0
+Anantapur,Andhra Pradesh,2025,Apr,4,Cyclone Risk,Forecast,10.4,11.0,-0.6,-5.5,Normal,0.0
+Anantapur,Andhra Pradesh,2025,May,5,Cyclone Risk,Forecast,20.9,22.0,-1.1,-5.0,Normal,0.0
+Anantapur,Andhra Pradesh,2025,Jun,6,Cyclone Risk,Forecast,78.4,82.5,-4.1,-5.0,Normal,0.0
+Anantapur,Andhra Pradesh,2025,Jul,7,Cyclone Risk,Forecast,130.6,137.5,-6.9,-5.0,Normal,0.0
+Anantapur,Andhra Pradesh,2025,Aug,8,Cyclone Risk,Forecast,114.9,121.0,-6.1,-5.0,Normal,0.0
+Anantapur,Andhra Pradesh,2025,Sep,9,Cyclone Risk,Forecast,78.4,82.5,-4.1,-5.0,Normal,0.0
+Anantapur,Andhra Pradesh,2025,Oct,10,Cyclone Risk,Forecast,137.5,55.0,82.5,150.0,Extremely Excess,100.0
+Anantapur,Andhra Pradesh,2025,Nov,11,Cyclone Risk,Forecast,41.2,16.5,24.7,149.7,Extremely Excess,100.0
+Anantapur,Andhra Pradesh,2025,Dec,12,Cyclone Risk,Forecast,5.2,5.5,-0.3,-5.5,Normal,0.0
+Chittoor,Andhra Pradesh,2025,Jan,1,Normal Year,Actual,8.6,8.0,0.6,7.5,Normal,6.0
+Chittoor,Andhra Pradesh,2025,Feb,2,Normal Year,Actual,8.4,8.0,0.4,5.0,Normal,4.0
+Chittoor,Andhra Pradesh,2025,Mar,3,Normal Year,Forecast,9.4,8.0,1.4,17.5,Normal,14.0
+Chittoor,Andhra Pradesh,2025,Apr,4,Normal Year,Forecast,18.1,16.0,2.1,13.1,Normal,10.5
+Chittoor,Andhra Pradesh,2025,May,5,Normal Year,Forecast,35.3,32.0,3.3,10.3,Normal,8.2
+Chittoor,Andhra Pradesh,2025,Jun,6,Normal Year,Forecast,140.6,120.0,20.6,17.2,Normal,13.7
+Chittoor,Andhra Pradesh,2025,Jul,7,Normal Year,Forecast,182.2,200.0,-17.8,-8.9,Normal,0.0
+Chittoor,Andhra Pradesh,2025,Aug,8,Normal Year,Forecast,149.9,176.0,-26.1,-14.8,Normal,0.0
+Chittoor,Andhra Pradesh,2025,Sep,9,Normal Year,Forecast,111.2,120.0,-8.8,-7.3,Normal,0.0
+Chittoor,Andhra Pradesh,2025,Oct,10,Normal Year,Forecast,71.9,80.0,-8.1,-10.1,Normal,0.0
+Chittoor,Andhra Pradesh,2025,Nov,11,Normal Year,Forecast,28.6,24.0,4.6,19.2,Normal,15.3
+Chittoor,Andhra Pradesh,2025,Dec,12,Normal Year,Forecast,9.4,8.0,1.4,17.5,Normal,14.0
+Alluri Sitharama Raju,Andhra Pradesh,2025,Jan,1,Early Monsoon,Actual,11.9,14.0,-2.1,-15.0,Normal,0.0
+Alluri Sitharama Raju,Andhra Pradesh,2025,Feb,2,Early Monsoon,Actual,11.9,14.0,-2.1,-15.0,Normal,0.0
+Alluri Sitharama Raju,Andhra Pradesh,2025,Mar,3,Early Monsoon,Forecast,11.9,14.0,-2.1,-15.0,Normal,0.0
+Alluri Sitharama Raju,Andhra Pradesh,2025,Apr,4,Early Monsoon,Forecast,23.8,28.0,-4.2,-15.0,Normal,0.0
+Alluri Sitharama Raju,Andhra Pradesh,2025,May,5,Early Monsoon,Forecast,78.4,56.0,22.4,40.0,Excess,32.0
+Alluri Sitharama Raju,Andhra Pradesh,2025,Jun,6,Early Monsoon,Forecast,294.0,210.0,84.0,40.0,Excess,32.0
+Alluri Sitharama Raju,Andhra Pradesh,2025,Jul,7,Early Monsoon,Forecast,297.5,350.0,-52.5,-15.0,Normal,0.0
+Alluri Sitharama Raju,Andhra Pradesh,2025,Aug,8,Early Monsoon,Forecast,261.8,308.0,-46.2,-15.0,Normal,0.0
+Alluri Sitharama Raju,Andhra Pradesh,2025,Sep,9,Early Monsoon,Forecast,178.5,210.0,-31.5,-15.0,Normal,0.0
+Alluri Sitharama Raju,Andhra Pradesh,2025,Oct,10,Early Monsoon,Forecast,119.0,140.0,-21.0,-15.0,Normal,0.0
+Alluri Sitharama Raju,Andhra Pradesh,2025,Nov,11,Early Monsoon,Forecast,35.7,42.0,-6.3,-15.0,Normal,0.0
+Alluri Sitharama Raju,Andhra Pradesh,2025,Dec,12,Early Monsoon,Forecast,11.9,14.0,-2.1,-15.0,Normal,0.0
+Anakapalli,Andhra Pradesh,2025,Jan,1,Delayed Monsoon,Actual,11.9,10.8,1.1,10.2,Normal,8.1
+Anakapalli,Andhra Pradesh,2025,Feb,2,Delayed Monsoon,Actual,11.9,10.8,1.1,10.2,Normal,8.1
+Anakapalli,Andhra Pradesh,2025,Mar,3,Delayed Monsoon,Forecast,11.9,10.8,1.1,10.2,Normal,8.1
+Anakapalli,Andhra Pradesh,2025,Apr,4,Delayed Monsoon,Forecast,23.8,21.6,2.2,10.2,Normal,8.1
+Anakapalli,Andhra Pradesh,2025,May,5,Delayed Monsoon,Forecast,47.5,43.2,4.3,10.0,Normal,8.0
+Anakapalli,Andhra Pradesh,2025,Jun,6,Delayed Monsoon,Forecast,48.6,162.0,-113.4,-70.0,Deficient,0.0
+Anakapalli,Andhra Pradesh,2025,Jul,7,Delayed Monsoon,Forecast,81.0,270.0,-189.0,-70.0,Deficient,0.0
+Anakapalli,Andhra Pradesh,2025,Aug,8,Delayed Monsoon,Forecast,261.4,237.6,23.8,10.0,Normal,8.0
+Anakapalli,Andhra Pradesh,2025,Sep,9,Delayed Monsoon,Forecast,178.2,162.0,16.2,10.0,Normal,8.0
+Anakapalli,Andhra Pradesh,2025,Oct,10,Delayed Monsoon,Forecast,118.8,108.0,10.8,10.0,Normal,8.0
+Anakapalli,Andhra Pradesh,2025,Nov,11,Delayed Monsoon,Forecast,35.6,32.4,3.2,9.9,Normal,7.9
+Anakapalli,Andhra Pradesh,2025,Dec,12,Delayed Monsoon,Forecast,11.9,10.8,1.1,10.2,Normal,8.1
+Bapatla,Andhra Pradesh,2025,Jan,1,Flood Year,Actual,15.6,9.2,6.4,69.6,Excess,55.7
+Bapatla,Andhra Pradesh,2025,Feb,2,Flood Year,Actual,16.3,9.2,7.1,77.2,Extremely Excess,61.7
+Bapatla,Andhra Pradesh,2025,Mar,3,Flood Year,Forecast,16.7,9.2,7.5,81.5,Extremely Excess,65.2
+Bapatla,Andhra Pradesh,2025,Apr,4,Flood Year,Forecast,34.5,18.4,16.1,87.5,Extremely Excess,70.0
+Bapatla,Andhra Pradesh,2025,May,5,Flood Year,Forecast,65.0,36.8,28.2,76.6,Extremely Excess,61.3
+Bapatla,Andhra Pradesh,2025,Jun,6,Flood Year,Forecast,302.5,138.0,164.5,119.2,Extremely Excess,95.4
+Bapatla,Andhra Pradesh,2025,Jul,7,Flood Year,Forecast,388.3,230.0,158.3,68.8,Excess,55.1
+Bapatla,Andhra Pradesh,2025,Aug,8,Flood Year,Forecast,326.0,202.4,123.6,61.1,Excess,48.9
+Bapatla,Andhra Pradesh,2025,Sep,9,Flood Year,Forecast,280.7,138.0,142.7,103.4,Extremely Excess,82.7
+Bapatla,Andhra Pradesh,2025,Oct,10,Flood Year,Forecast,190.0,92.0,98.0,106.5,Extremely Excess,85.2
+Bapatla,Andhra Pradesh,2025,Nov,11,Flood Year,Forecast,42.0,27.6,14.4,52.2,Excess,41.7
+Bapatla,Andhra Pradesh,2025,Dec,12,Flood Year,Forecast,13.8,9.2,4.6,50.0,Excess,40.0
+Eluru,Andhra Pradesh,2025,Jan,1,Drought Year,Actual,4.4,10.0,-5.6,-56.0,Deficient,0.0
+Eluru,Andhra Pradesh,2025,Feb,2,Drought Year,Actual,5.8,10.0,-4.2,-42.0,Deficient,0.0
+Eluru,Andhra Pradesh,2025,Mar,3,Drought Year,Forecast,4.2,10.0,-5.8,-58.0,Deficient,0.0
+Eluru,Andhra Pradesh,2025,Apr,4,Drought Year,Forecast,8.8,20.0,-11.2,-56.0,Deficient,0.0
+Eluru,Andhra Pradesh,2025,May,5,Drought Year,Forecast,8.4,40.0,-31.6,-79.0,Deficient,0.0
+Eluru,Andhra Pradesh,2025,Jun,6,Drought Year,Forecast,43.6,150.0,-106.4,-70.9,Deficient,0.0
+Eluru,Andhra Pradesh,2025,Jul,7,Drought Year,Forecast,147.7,250.0,-102.3,-40.9,Deficient,0.0
+Eluru,Andhra Pradesh,2025,Aug,8,Drought Year,Forecast,61.4,220.0,-158.6,-72.1,Deficient,0.0
+Eluru,Andhra Pradesh,2025,Sep,9,Drought Year,Forecast,84.0,150.0,-66.0,-44.0,Deficient,0.0
+Eluru,Andhra Pradesh,2025,Oct,10,Drought Year,Forecast,54.4,100.0,-45.6,-45.6,Deficient,0.0
+Eluru,Andhra Pradesh,2025,Nov,11,Drought Year,Forecast,13.1,30.0,-16.9,-56.3,Deficient,0.0
+Eluru,Andhra Pradesh,2025,Dec,12,Drought Year,Forecast,3.3,10.0,-6.7,-67.0,Deficient,0.0
+Konaseema,Andhra Pradesh,2025,Jan,1,Cyclone Risk,Actual,11.9,12.5,-0.6,-4.8,Normal,0.0
+Konaseema,Andhra Pradesh,2025,Feb,2,Cyclone Risk,Actual,11.9,12.5,-0.6,-4.8,Normal,0.0
+Konaseema,Andhra Pradesh,2025,Mar,3,Cyclone Risk,Forecast,11.9,12.5,-0.6,-4.8,Normal,0.0
+Konaseema,Andhra Pradesh,2025,Apr,4,Cyclone Risk,Forecast,23.8,25.0,-1.2,-4.8,Normal,0.0
+Konaseema,Andhra Pradesh,2025,May,5,Cyclone Risk,Forecast,47.5,50.0,-2.5,-5.0,Normal,0.0
+Konaseema,Andhra Pradesh,2025,Jun,6,Cyclone Risk,Forecast,178.1,187.5,-9.4,-5.0,Normal,0.0
+Konaseema,Andhra Pradesh,2025,Jul,7,Cyclone Risk,Forecast,296.9,312.5,-15.6,-5.0,Normal,0.0
+Konaseema,Andhra Pradesh,2025,Aug,8,Cyclone Risk,Forecast,261.2,275.0,-13.8,-5.0,Normal,0.0
+Konaseema,Andhra Pradesh,2025,Sep,9,Cyclone Risk,Forecast,178.1,187.5,-9.4,-5.0,Normal,0.0
+Konaseema,Andhra Pradesh,2025,Oct,10,Cyclone Risk,Forecast,312.5,125.0,187.5,150.0,Extremely Excess,100.0
+Konaseema,Andhra Pradesh,2025,Nov,11,Cyclone Risk,Forecast,93.8,37.5,56.3,150.1,Extremely Excess,100.0
+Konaseema,Andhra Pradesh,2025,Dec,12,Cyclone Risk,Forecast,11.9,12.5,-0.6,-4.8,Normal,0.0
+Parvathipuram Manyam,Andhra Pradesh,2025,Jan,1,Normal Year,Actual,13.4,13.0,0.4,3.1,Normal,2.5
+Parvathipuram Manyam,Andhra Pradesh,2025,Feb,2,Normal Year,Actual,15.2,13.0,2.2,16.9,Normal,13.5
+Parvathipuram Manyam,Andhra Pradesh,2025,Mar,3,Normal Year,Forecast,12.5,13.0,-0.5,-3.8,Normal,0.0
+Parvathipuram Manyam,Andhra Pradesh,2025,Apr,4,Normal Year,Forecast,22.9,26.0,-3.1,-11.9,Normal,0.0
+Parvathipuram Manyam,Andhra Pradesh,2025,May,5,Normal Year,Forecast,60.9,52.0,8.9,17.1,Normal,13.7
+Parvathipuram Manyam,Andhra Pradesh,2025,Jun,6,Normal Year,Forecast,185.2,195.0,-9.8,-5.0,Normal,0.0
+Parvathipuram Manyam,Andhra Pradesh,2025,Jul,7,Normal Year,Forecast,388.0,325.0,63.0,19.4,Normal,15.5
+Parvathipuram Manyam,Andhra Pradesh,2025,Aug,8,Normal Year,Forecast,319.5,286.0,33.5,11.7,Normal,9.4
+Parvathipuram Manyam,Andhra Pradesh,2025,Sep,9,Normal Year,Forecast,220.4,195.0,25.4,13.0,Normal,10.4
+Parvathipuram Manyam,Andhra Pradesh,2025,Oct,10,Normal Year,Forecast,129.1,130.0,-0.9,-0.7,Normal,0.0
+Parvathipuram Manyam,Andhra Pradesh,2025,Nov,11,Normal Year,Forecast,44.4,39.0,5.4,13.8,Normal,11.1
+Parvathipuram Manyam,Andhra Pradesh,2025,Dec,12,Normal Year,Forecast,12.0,13.0,-1.0,-7.7,Normal,0.0
+Sri Sathya Sai,Andhra Pradesh,2025,Jan,1,Early Monsoon,Actual,5.5,6.5,-1.0,-15.4,Normal,0.0
+Sri Sathya Sai,Andhra Pradesh,2025,Feb,2,Early Monsoon,Actual,5.5,6.5,-1.0,-15.4,Normal,0.0
+Sri Sathya Sai,Andhra Pradesh,2025,Mar,3,Early Monsoon,Forecast,5.5,6.5,-1.0,-15.4,Normal,0.0
+Sri Sathya Sai,Andhra Pradesh,2025,Apr,4,Early Monsoon,Forecast,11.0,13.0,-2.0,-15.4,Normal,0.0
+Sri Sathya Sai,Andhra Pradesh,2025,May,5,Early Monsoon,Forecast,36.4,26.0,10.4,40.0,Excess,32.0
+Sri Sathya Sai,Andhra Pradesh,2025,Jun,6,Early Monsoon,Forecast,136.5,97.5,39.0,40.0,Excess,32.0
+Sri Sathya Sai,Andhra Pradesh,2025,Jul,7,Early Monsoon,Forecast,138.1,162.5,-24.4,-15.0,Normal,0.0
+Sri Sathya Sai,Andhra Pradesh,2025,Aug,8,Early Monsoon,Forecast,121.5,143.0,-21.5,-15.0,Normal,0.0
+Sri Sathya Sai,Andhra Pradesh,2025,Sep,9,Early Monsoon,Forecast,82.9,97.5,-14.6,-15.0,Normal,0.0
+Sri Sathya Sai,Andhra Pradesh,2025,Oct,10,Early Monsoon,Forecast,55.2,65.0,-9.8,-15.1,Normal,0.0
+Sri Sathya Sai,Andhra Pradesh,2025,Nov,11,Early Monsoon,Forecast,16.6,19.5,-2.9,-14.9,Normal,0.0
+Sri Sathya Sai,Andhra Pradesh,2025,Dec,12,Early Monsoon,Forecast,5.5,6.5,-1.0,-15.4,Normal,0.0
+Tirupati,Andhra Pradesh,2025,Jan,1,Delayed Monsoon,Actual,9.0,8.2,0.8,9.8,Normal,7.8
+Tirupati,Andhra Pradesh,2025,Feb,2,Delayed Monsoon,Actual,9.0,8.2,0.8,9.8,Normal,7.8
+Tirupati,Andhra Pradesh,2025,Mar,3,Delayed Monsoon,Forecast,9.0,8.2,0.8,9.8,Normal,7.8
+Tirupati,Andhra Pradesh,2025,Apr,4,Delayed Monsoon,Forecast,18.0,16.4,1.6,9.8,Normal,7.8
+Tirupati,Andhra Pradesh,2025,May,5,Delayed Monsoon,Forecast,36.1,32.8,3.3,10.1,Normal,8.0
+Tirupati,Andhra Pradesh,2025,Jun,6,Delayed Monsoon,Forecast,36.9,123.0,-86.1,-70.0,Deficient,0.0
+Tirupati,Andhra Pradesh,2025,Jul,7,Delayed Monsoon,Forecast,61.5,205.0,-143.5,-70.0,Deficient,0.0
+Tirupati,Andhra Pradesh,2025,Aug,8,Delayed Monsoon,Forecast,198.4,180.4,18.0,10.0,Normal,8.0
+Tirupati,Andhra Pradesh,2025,Sep,9,Delayed Monsoon,Forecast,135.3,123.0,12.3,10.0,Normal,8.0
+Tirupati,Andhra Pradesh,2025,Oct,10,Delayed Monsoon,Forecast,90.2,82.0,8.2,10.0,Normal,8.0
+Tirupati,Andhra Pradesh,2025,Nov,11,Delayed Monsoon,Forecast,27.1,24.6,2.5,10.2,Normal,8.1
+Tirupati,Andhra Pradesh,2025,Dec,12,Delayed Monsoon,Forecast,9.0,8.2,0.8,9.8,Normal,7.8
+Hyderabad,Telangana,2025,Jan,1,Flood Year,Actual,13.3,8.0,5.3,66.3,Excess,53.0
+Hyderabad,Telangana,2025,Feb,2,Flood Year,Actual,16.8,8.0,8.8,110.0,Extremely Excess,88.0
+Hyderabad,Telangana,2025,Mar,3,Flood Year,Forecast,11.7,8.0,3.7,46.2,Excess,37.0
+Hyderabad,Telangana,2025,Apr,4,Flood Year,Forecast,22.9,16.0,6.9,43.1,Excess,34.5
+Hyderabad,Telangana,2025,May,5,Flood Year,Forecast,50.0,32.0,18.0,56.2,Excess,45.0
+Hyderabad,Telangana,2025,Jun,6,Flood Year,Forecast,204.3,120.0,84.3,70.3,Excess,56.2
+Hyderabad,Telangana,2025,Jul,7,Flood Year,Forecast,376.5,200.0,176.5,88.2,Extremely Excess,70.6
+Hyderabad,Telangana,2025,Aug,8,Flood Year,Forecast,300.7,176.0,124.7,70.9,Excess,56.7
+Hyderabad,Telangana,2025,Sep,9,Flood Year,Forecast,252.2,120.0,132.2,110.2,Extremely Excess,88.1
+Hyderabad,Telangana,2025,Oct,10,Flood Year,Forecast,131.7,80.0,51.7,64.6,Excess,51.7
+Hyderabad,Telangana,2025,Nov,11,Flood Year,Forecast,52.8,24.0,28.8,120.0,Extremely Excess,96.0
+Hyderabad,Telangana,2025,Dec,12,Flood Year,Forecast,12.2,8.0,4.2,52.5,Excess,42.0
+Rangareddy,Telangana,2025,Jan,1,Drought Year,Actual,4.5,7.8,-3.3,-42.3,Deficient,0.0
+Rangareddy,Telangana,2025,Feb,2,Drought Year,Actual,4.1,7.8,-3.7,-47.4,Deficient,0.0
+Rangareddy,Telangana,2025,Mar,3,Drought Year,Forecast,4.5,7.8,-3.3,-42.3,Deficient,0.0
+Rangareddy,Telangana,2025,Apr,4,Drought Year,Forecast,6.8,15.6,-8.8,-56.4,Deficient,0.0
+Rangareddy,Telangana,2025,May,5,Drought Year,Forecast,8.2,31.2,-23.0,-73.7,Deficient,0.0
+Rangareddy,Telangana,2025,Jun,6,Drought Year,Forecast,24.0,117.0,-93.0,-79.5,Deficient,0.0
+Rangareddy,Telangana,2025,Jul,7,Drought Year,Forecast,106.1,195.0,-88.9,-45.6,Deficient,0.0
+Rangareddy,Telangana,2025,Aug,8,Drought Year,Forecast,42.9,171.6,-128.7,-75.0,Deficient,0.0
+Rangareddy,Telangana,2025,Sep,9,Drought Year,Forecast,67.3,117.0,-49.7,-42.5,Deficient,0.0
+Rangareddy,Telangana,2025,Oct,10,Drought Year,Forecast,17.3,78.0,-60.7,-77.8,Deficient,0.0
+Rangareddy,Telangana,2025,Nov,11,Drought Year,Forecast,8.3,23.4,-15.1,-64.5,Deficient,0.0
+Rangareddy,Telangana,2025,Dec,12,Drought Year,Forecast,3.2,7.8,-4.6,-59.0,Deficient,0.0
+Medchal Malkajgiri,Telangana,2025,Jan,1,Cyclone Risk,Actual,7.7,8.1,-0.4,-4.9,Normal,0.0
+Medchal Malkajgiri,Telangana,2025,Feb,2,Cyclone Risk,Actual,7.7,8.1,-0.4,-4.9,Normal,0.0
+Medchal Malkajgiri,Telangana,2025,Mar,3,Cyclone Risk,Forecast,7.7,8.1,-0.4,-4.9,Normal,0.0
+Medchal Malkajgiri,Telangana,2025,Apr,4,Cyclone Risk,Forecast,15.4,16.2,-0.8,-4.9,Normal,0.0
+Medchal Malkajgiri,Telangana,2025,May,5,Cyclone Risk,Forecast,30.8,32.4,-1.6,-4.9,Normal,0.0
+Medchal Malkajgiri,Telangana,2025,Jun,6,Cyclone Risk,Forecast,115.4,121.5,-6.1,-5.0,Normal,0.0
+Medchal Malkajgiri,Telangana,2025,Jul,7,Cyclone Risk,Forecast,192.4,202.5,-10.1,-5.0,Normal,0.0
+Medchal Malkajgiri,Telangana,2025,Aug,8,Cyclone Risk,Forecast,169.3,178.2,-8.9,-5.0,Normal,0.0
+Medchal Malkajgiri,Telangana,2025,Sep,9,Cyclone Risk,Forecast,115.4,121.5,-6.1,-5.0,Normal,0.0
+Medchal Malkajgiri,Telangana,2025,Oct,10,Cyclone Risk,Forecast,202.5,81.0,121.5,150.0,Extremely Excess,100.0
+Medchal Malkajgiri,Telangana,2025,Nov,11,Cyclone Risk,Forecast,60.8,24.3,36.5,150.2,Extremely Excess,100.0
+Medchal Malkajgiri,Telangana,2025,Dec,12,Cyclone Risk,Forecast,7.7,8.1,-0.4,-4.9,Normal,0.0
+Sangareddy,Telangana,2025,Jan,1,Normal Year,Actual,8.1,8.5,-0.4,-4.7,Normal,0.0
+Sangareddy,Telangana,2025,Feb,2,Normal Year,Actual,9.4,8.5,0.9,10.6,Normal,8.5
+Sangareddy,Telangana,2025,Mar,3,Normal Year,Forecast,9.4,8.5,0.9,10.6,Normal,8.5
+Sangareddy,Telangana,2025,Apr,4,Normal Year,Forecast,16.7,17.0,-0.3,-1.8,Normal,0.0
+Sangareddy,Telangana,2025,May,5,Normal Year,Forecast,29.4,34.0,-4.6,-13.5,Normal,0.0
+Sangareddy,Telangana,2025,Jun,6,Normal Year,Forecast,138.6,127.5,11.1,8.7,Normal,7.0
+Sangareddy,Telangana,2025,Jul,7,Normal Year,Forecast,211.8,212.5,-0.7,-0.3,Normal,0.0
+Sangareddy,Telangana,2025,Aug,8,Normal Year,Forecast,189.1,187.0,2.1,1.1,Normal,0.9
+Sangareddy,Telangana,2025,Sep,9,Normal Year,Forecast,128.7,127.5,1.2,0.9,Normal,0.8
+Sangareddy,Telangana,2025,Oct,10,Normal Year,Forecast,95.4,85.0,10.4,12.2,Normal,9.8
+Sangareddy,Telangana,2025,Nov,11,Normal Year,Forecast,26.0,25.5,0.5,2.0,Normal,1.6
+Sangareddy,Telangana,2025,Dec,12,Normal Year,Forecast,9.0,8.5,0.5,5.9,Normal,4.7
+Medak,Telangana,2025,Jan,1,Early Monsoon,Actual,7.6,9.0,-1.4,-15.6,Normal,0.0
+Medak,Telangana,2025,Feb,2,Early Monsoon,Actual,7.6,9.0,-1.4,-15.6,Normal,0.0
+Medak,Telangana,2025,Mar,3,Early Monsoon,Forecast,7.6,9.0,-1.4,-15.6,Normal,0.0
+Medak,Telangana,2025,Apr,4,Early Monsoon,Forecast,15.3,18.0,-2.7,-15.0,Normal,0.0
+Medak,Telangana,2025,May,5,Early Monsoon,Forecast,50.4,36.0,14.4,40.0,Excess,32.0
+Medak,Telangana,2025,Jun,6,Early Monsoon,Forecast,189.0,135.0,54.0,40.0,Excess,32.0
+Medak,Telangana,2025,Jul,7,Early Monsoon,Forecast,191.2,225.0,-33.8,-15.0,Normal,0.0
+Medak,Telangana,2025,Aug,8,Early Monsoon,Forecast,168.3,198.0,-29.7,-15.0,Normal,0.0
+Medak,Telangana,2025,Sep,9,Early Monsoon,Forecast,114.8,135.0,-20.2,-15.0,Normal,0.0
+Medak,Telangana,2025,Oct,10,Early Monsoon,Forecast,76.5,90.0,-13.5,-15.0,Normal,0.0
+Medak,Telangana,2025,Nov,11,Early Monsoon,Forecast,22.9,27.0,-4.1,-15.2,Normal,0.0
+Medak,Telangana,2025,Dec,12,Early Monsoon,Forecast,7.6,9.0,-1.4,-15.6,Normal,0.0
+Nizamabad,Telangana,2025,Jan,1,Delayed Monsoon,Actual,10.5,9.5,1.0,10.5,Normal,8.4
+Nizamabad,Telangana,2025,Feb,2,Delayed Monsoon,Actual,10.5,9.5,1.0,10.5,Normal,8.4
+Nizamabad,Telangana,2025,Mar,3,Delayed Monsoon,Forecast,10.5,9.5,1.0,10.5,Normal,8.4
+Nizamabad,Telangana,2025,Apr,4,Delayed Monsoon,Forecast,20.9,19.0,1.9,10.0,Normal,8.0
+Nizamabad,Telangana,2025,May,5,Delayed Monsoon,Forecast,41.8,38.0,3.8,10.0,Normal,8.0
+Nizamabad,Telangana,2025,Jun,6,Delayed Monsoon,Forecast,42.8,142.5,-99.7,-70.0,Deficient,0.0
+Nizamabad,Telangana,2025,Jul,7,Delayed Monsoon,Forecast,71.2,237.5,-166.3,-70.0,Deficient,0.0
+Nizamabad,Telangana,2025,Aug,8,Delayed Monsoon,Forecast,229.9,209.0,20.9,10.0,Normal,8.0
+Nizamabad,Telangana,2025,Sep,9,Delayed Monsoon,Forecast,156.8,142.5,14.3,10.0,Normal,8.0
+Nizamabad,Telangana,2025,Oct,10,Delayed Monsoon,Forecast,104.5,95.0,9.5,10.0,Normal,8.0
+Nizamabad,Telangana,2025,Nov,11,Delayed Monsoon,Forecast,31.4,28.5,2.9,10.2,Normal,8.1
+Nizamabad,Telangana,2025,Dec,12,Delayed Monsoon,Forecast,10.5,9.5,1.0,10.5,Normal,8.4
+Kamareddy,Telangana,2025,Jan,1,Flood Year,Actual,13.1,8.8,4.3,48.9,Excess,39.1
+Kamareddy,Telangana,2025,Feb,2,Flood Year,Actual,16.2,8.8,7.4,84.1,Extremely Excess,67.3
+Kamareddy,Telangana,2025,Mar,3,Flood Year,Forecast,12.9,8.8,4.1,46.6,Excess,37.3
+Kamareddy,Telangana,2025,Apr,4,Flood Year,Forecast,25.0,17.6,7.4,42.0,Excess,33.6
+Kamareddy,Telangana,2025,May,5,Flood Year,Forecast,66.7,35.2,31.5,89.5,Extremely Excess,71.6
+Kamareddy,Telangana,2025,Jun,6,Flood Year,Forecast,222.9,132.0,90.9,68.9,Excess,55.1
+Kamareddy,Telangana,2025,Jul,7,Flood Year,Forecast,312.4,220.0,92.4,42.0,Excess,33.6
+Kamareddy,Telangana,2025,Aug,8,Flood Year,Forecast,385.2,193.6,191.6,99.0,Extremely Excess,79.2
+Kamareddy,Telangana,2025,Sep,9,Flood Year,Forecast,208.7,132.0,76.7,58.1,Excess,46.5
+Kamareddy,Telangana,2025,Oct,10,Flood Year,Forecast,132.6,88.0,44.6,50.7,Excess,40.5
+Kamareddy,Telangana,2025,Nov,11,Flood Year,Forecast,41.5,26.4,15.1,57.2,Excess,45.8
+Kamareddy,Telangana,2025,Dec,12,Flood Year,Forecast,19.3,8.8,10.5,119.3,Extremely Excess,95.5
+Jagtial,Telangana,2025,Jan,1,Drought Year,Actual,5.8,10.0,-4.2,-42.0,Deficient,0.0
+Jagtial,Telangana,2025,Feb,2,Drought Year,Actual,3.2,10.0,-6.8,-68.0,Deficient,0.0
+Jagtial,Telangana,2025,Mar,3,Drought Year,Forecast,4.3,10.0,-5.7,-57.0,Deficient,0.0
+Jagtial,Telangana,2025,Apr,4,Drought Year,Forecast,9.5,20.0,-10.5,-52.5,Deficient,0.0
+Jagtial,Telangana,2025,May,5,Drought Year,Forecast,9.6,40.0,-30.4,-76.0,Deficient,0.0
+Jagtial,Telangana,2025,Jun,6,Drought Year,Forecast,69.1,150.0,-80.9,-53.9,Deficient,0.0
+Jagtial,Telangana,2025,Jul,7,Drought Year,Forecast,57.2,250.0,-192.8,-77.1,Deficient,0.0
+Jagtial,Telangana,2025,Aug,8,Drought Year,Forecast,86.2,220.0,-133.8,-60.8,Deficient,0.0
+Jagtial,Telangana,2025,Sep,9,Drought Year,Forecast,88.9,150.0,-61.1,-40.7,Deficient,0.0
+Jagtial,Telangana,2025,Oct,10,Drought Year,Forecast,59.2,100.0,-40.8,-40.8,Deficient,0.0
+Jagtial,Telangana,2025,Nov,11,Drought Year,Forecast,17.5,30.0,-12.5,-41.7,Deficient,0.0
+Jagtial,Telangana,2025,Dec,12,Drought Year,Forecast,2.9,10.0,-7.1,-71.0,Deficient,0.0
+Rajanna Sircilla,Telangana,2025,Jan,1,Cyclone Risk,Actual,9.2,9.7,-0.5,-5.2,Normal,0.0
+Rajanna Sircilla,Telangana,2025,Feb,2,Cyclone Risk,Actual,9.2,9.7,-0.5,-5.2,Normal,0.0
+Rajanna Sircilla,Telangana,2025,Mar,3,Cyclone Risk,Forecast,9.2,9.7,-0.5,-5.2,Normal,0.0
+Rajanna Sircilla,Telangana,2025,Apr,4,Cyclone Risk,Forecast,18.4,19.4,-1.0,-5.2,Normal,0.0
+Rajanna Sircilla,Telangana,2025,May,5,Cyclone Risk,Forecast,36.9,38.8,-1.9,-4.9,Normal,0.0
+Rajanna Sircilla,Telangana,2025,Jun,6,Cyclone Risk,Forecast,138.2,145.5,-7.3,-5.0,Normal,0.0
+Rajanna Sircilla,Telangana,2025,Jul,7,Cyclone Risk,Forecast,230.4,242.5,-12.1,-5.0,Normal,0.0
+Rajanna Sircilla,Telangana,2025,Aug,8,Cyclone Risk,Forecast,202.7,213.4,-10.7,-5.0,Normal,0.0
+Rajanna Sircilla,Telangana,2025,Sep,9,Cyclone Risk,Forecast,138.2,145.5,-7.3,-5.0,Normal,0.0
+Rajanna Sircilla,Telangana,2025,Oct,10,Cyclone Risk,Forecast,242.5,97.0,145.5,150.0,Extremely Excess,100.0
+Rajanna Sircilla,Telangana,2025,Nov,11,Cyclone Risk,Forecast,72.8,29.1,43.7,150.2,Extremely Excess,100.0
+Rajanna Sircilla,Telangana,2025,Dec,12,Cyclone Risk,Forecast,9.2,9.7,-0.5,-5.2,Normal,0.0
+Karimnagar,Telangana,2025,Jan,1,Normal Year,Actual,11.4,10.2,1.2,11.8,Normal,9.4
+Karimnagar,Telangana,2025,Feb,2,Normal Year,Actual,9.2,10.2,-1.0,-9.8,Normal,0.0
+Karimnagar,Telangana,2025,Mar,3,Normal Year,Forecast,10.9,10.2,0.7,6.9,Normal,5.5
+Karimnagar,Telangana,2025,Apr,4,Normal Year,Forecast,18.5,20.4,-1.9,-9.3,Normal,0.0
+Karimnagar,Telangana,2025,May,5,Normal Year,Forecast,46.9,40.8,6.1,15.0,Normal,12.0
+Karimnagar,Telangana,2025,Jun,6,Normal Year,Forecast,181.1,153.0,28.1,18.4,Normal,14.7
+Karimnagar,Telangana,2025,Jul,7,Normal Year,Forecast,255.3,255.0,0.3,0.1,Normal,0.1
+Karimnagar,Telangana,2025,Aug,8,Normal Year,Forecast,258.0,224.4,33.6,15.0,Normal,12.0
+Karimnagar,Telangana,2025,Sep,9,Normal Year,Forecast,170.3,153.0,17.3,11.3,Normal,9.0
+Karimnagar,Telangana,2025,Oct,10,Normal Year,Forecast,116.1,102.0,14.1,13.8,Normal,11.1
+Karimnagar,Telangana,2025,Nov,11,Normal Year,Forecast,27.2,30.6,-3.4,-11.1,Normal,0.0
+Karimnagar,Telangana,2025,Dec,12,Normal Year,Forecast,10.2,10.2,-0.0,-0.0,Normal,0.0
+Peddapalli,Telangana,2025,Jan,1,Early Monsoon,Actual,8.9,10.5,-1.6,-15.2,Normal,0.0
+Peddapalli,Telangana,2025,Feb,2,Early Monsoon,Actual,8.9,10.5,-1.6,-15.2,Normal,0.0
+Peddapalli,Telangana,2025,Mar,3,Early Monsoon,Forecast,8.9,10.5,-1.6,-15.2,Normal,0.0
+Peddapalli,Telangana,2025,Apr,4,Early Monsoon,Forecast,17.8,21.0,-3.2,-15.2,Normal,0.0
+Peddapalli,Telangana,2025,May,5,Early Monsoon,Forecast,58.8,42.0,16.8,40.0,Excess,32.0
+Peddapalli,Telangana,2025,Jun,6,Early Monsoon,Forecast,220.5,157.5,63.0,40.0,Excess,32.0
+Peddapalli,Telangana,2025,Jul,7,Early Monsoon,Forecast,223.1,262.5,-39.4,-15.0,Normal,0.0
+Peddapalli,Telangana,2025,Aug,8,Early Monsoon,Forecast,196.3,231.0,-34.7,-15.0,Normal,0.0
+Peddapalli,Telangana,2025,Sep,9,Early Monsoon,Forecast,133.9,157.5,-23.6,-15.0,Normal,0.0
+Peddapalli,Telangana,2025,Oct,10,Early Monsoon,Forecast,89.2,105.0,-15.8,-15.0,Normal,0.0
+Peddapalli,Telangana,2025,Nov,11,Early Monsoon,Forecast,26.8,31.5,-4.7,-14.9,Normal,0.0
+Peddapalli,Telangana,2025,Dec,12,Early Monsoon,Forecast,8.9,10.5,-1.6,-15.2,Normal,0.0
+Jayashankar Bhupalpally,Telangana,2025,Jan,1,Delayed Monsoon,Actual,13.2,12.0,1.2,10.0,Normal,8.0
+Jayashankar Bhupalpally,Telangana,2025,Feb,2,Delayed Monsoon,Actual,13.2,12.0,1.2,10.0,Normal,8.0
+Jayashankar Bhupalpally,Telangana,2025,Mar,3,Delayed Monsoon,Forecast,13.2,12.0,1.2,10.0,Normal,8.0
+Jayashankar Bhupalpally,Telangana,2025,Apr,4,Delayed Monsoon,Forecast,26.4,24.0,2.4,10.0,Normal,8.0
+Jayashankar Bhupalpally,Telangana,2025,May,5,Delayed Monsoon,Forecast,52.8,48.0,4.8,10.0,Normal,8.0
+Jayashankar Bhupalpally,Telangana,2025,Jun,6,Delayed Monsoon,Forecast,54.0,180.0,-126.0,-70.0,Deficient,0.0
+Jayashankar Bhupalpally,Telangana,2025,Jul,7,Delayed Monsoon,Forecast,90.0,300.0,-210.0,-70.0,Deficient,0.0
+Jayashankar Bhupalpally,Telangana,2025,Aug,8,Delayed Monsoon,Forecast,290.4,264.0,26.4,10.0,Normal,8.0
+Jayashankar Bhupalpally,Telangana,2025,Sep,9,Delayed Monsoon,Forecast,198.0,180.0,18.0,10.0,Normal,8.0
+Jayashankar Bhupalpally,Telangana,2025,Oct,10,Delayed Monsoon,Forecast,132.0,120.0,12.0,10.0,Normal,8.0
+Jayashankar Bhupalpally,Telangana,2025,Nov,11,Delayed Monsoon,Forecast,39.6,36.0,3.6,10.0,Normal,8.0
+Jayashankar Bhupalpally,Telangana,2025,Dec,12,Delayed Monsoon,Forecast,13.2,12.0,1.2,10.0,Normal,8.0
+Mulugu,Telangana,2025,Jan,1,Flood Year,Actual,23.4,13.5,9.9,73.3,Excess,58.7
+Mulugu,Telangana,2025,Feb,2,Flood Year,Actual,23.6,13.5,10.1,74.8,Excess,59.9
+Mulugu,Telangana,2025,Mar,3,Flood Year,Forecast,19.0,13.5,5.5,40.7,Excess,32.6
+Mulugu,Telangana,2025,Apr,4,Flood Year,Forecast,40.6,27.0,13.6,50.4,Excess,40.3
+Mulugu,Telangana,2025,May,5,Flood Year,Forecast,108.4,54.0,54.4,100.7,Extremely Excess,80.6
+Mulugu,Telangana,2025,Jun,6,Flood Year,Forecast,357.0,202.5,154.5,76.3,Extremely Excess,61.0
+Mulugu,Telangana,2025,Jul,7,Flood Year,Forecast,563.6,337.5,226.1,67.0,Excess,53.6
+Mulugu,Telangana,2025,Aug,8,Flood Year,Forecast,521.9,297.0,224.9,75.7,Extremely Excess,60.6
+Mulugu,Telangana,2025,Sep,9,Flood Year,Forecast,304.9,202.5,102.4,50.6,Excess,40.5
+Mulugu,Telangana,2025,Oct,10,Flood Year,Forecast,282.6,135.0,147.6,109.3,Extremely Excess,87.5
+Mulugu,Telangana,2025,Nov,11,Flood Year,Forecast,61.8,40.5,21.3,52.6,Excess,42.1
+Mulugu,Telangana,2025,Dec,12,Flood Year,Forecast,27.9,13.5,14.4,106.7,Extremely Excess,85.3
+Bhadradri Kothagudem,Telangana,2025,Jan,1,Drought Year,Actual,4.6,13.0,-8.4,-64.6,Deficient,0.0
+Bhadradri Kothagudem,Telangana,2025,Feb,2,Drought Year,Actual,4.0,13.0,-9.0,-69.2,Deficient,0.0
+Bhadradri Kothagudem,Telangana,2025,Mar,3,Drought Year,Forecast,6.7,13.0,-6.3,-48.5,Deficient,0.0
+Bhadradri Kothagudem,Telangana,2025,Apr,4,Drought Year,Forecast,13.4,26.0,-12.6,-48.5,Deficient,0.0
+Bhadradri Kothagudem,Telangana,2025,May,5,Drought Year,Forecast,21.8,52.0,-30.2,-58.1,Deficient,0.0
+Bhadradri Kothagudem,Telangana,2025,Jun,6,Drought Year,Forecast,104.8,195.0,-90.2,-46.3,Deficient,0.0
+Bhadradri Kothagudem,Telangana,2025,Jul,7,Drought Year,Forecast,92.7,325.0,-232.3,-71.5,Deficient,0.0
+Bhadradri Kothagudem,Telangana,2025,Aug,8,Drought Year,Forecast,95.4,286.0,-190.6,-66.6,Deficient,0.0
+Bhadradri Kothagudem,Telangana,2025,Sep,9,Drought Year,Forecast,110.2,195.0,-84.8,-43.5,Deficient,0.0
+Bhadradri Kothagudem,Telangana,2025,Oct,10,Drought Year,Forecast,49.9,130.0,-80.1,-61.6,Deficient,0.0
+Bhadradri Kothagudem,Telangana,2025,Nov,11,Drought Year,Forecast,15.6,39.0,-23.4,-60.0,Deficient,0.0
+Bhadradri Kothagudem,Telangana,2025,Dec,12,Drought Year,Forecast,7.7,13.0,-5.3,-40.8,Deficient,0.0
+Khammam,Telangana,2025,Jan,1,Cyclone Risk,Actual,10.4,11.0,-0.6,-5.5,Normal,0.0
+Khammam,Telangana,2025,Feb,2,Cyclone Risk,Actual,10.4,11.0,-0.6,-5.5,Normal,0.0
+Khammam,Telangana,2025,Mar,3,Cyclone Risk,Forecast,10.4,11.0,-0.6,-5.5,Normal,0.0
+Khammam,Telangana,2025,Apr,4,Cyclone Risk,Forecast,20.9,22.0,-1.1,-5.0,Normal,0.0
+Khammam,Telangana,2025,May,5,Cyclone Risk,Forecast,41.8,44.0,-2.2,-5.0,Normal,0.0
+Khammam,Telangana,2025,Jun,6,Cyclone Risk,Forecast,156.8,165.0,-8.2,-5.0,Normal,0.0
+Khammam,Telangana,2025,Jul,7,Cyclone Risk,Forecast,261.2,275.0,-13.8,-5.0,Normal,0.0
+Khammam,Telangana,2025,Aug,8,Cyclone Risk,Forecast,229.9,242.0,-12.1,-5.0,Normal,0.0
+Khammam,Telangana,2025,Sep,9,Cyclone Risk,Forecast,156.8,165.0,-8.2,-5.0,Normal,0.0
+Khammam,Telangana,2025,Oct,10,Cyclone Risk,Forecast,275.0,110.0,165.0,150.0,Extremely Excess,100.0
+Khammam,Telangana,2025,Nov,11,Cyclone Risk,Forecast,82.5,33.0,49.5,150.0,Extremely Excess,100.0
+Khammam,Telangana,2025,Dec,12,Cyclone Risk,Forecast,10.4,11.0,-0.6,-5.5,Normal,0.0
+Nalgonda,Telangana,2025,Jan,1,Normal Year,Actual,7.0,7.8,-0.8,-10.3,Normal,0.0
+Nalgonda,Telangana,2025,Feb,2,Normal Year,Actual,8.2,7.8,0.4,5.1,Normal,4.1
+Nalgonda,Telangana,2025,Mar,3,Normal Year,Forecast,9.1,7.8,1.3,16.7,Normal,13.3
+Nalgonda,Telangana,2025,Apr,4,Normal Year,Forecast,13.5,15.6,-2.1,-13.5,Normal,0.0
+Nalgonda,Telangana,2025,May,5,Normal Year,Forecast,37.4,31.2,6.2,19.9,Normal,15.9
+Nalgonda,Telangana,2025,Jun,6,Normal Year,Forecast,100.2,117.0,-16.8,-14.4,Normal,0.0
+Nalgonda,Telangana,2025,Jul,7,Normal Year,Forecast,209.5,195.0,14.5,7.4,Normal,5.9
+Nalgonda,Telangana,2025,Aug,8,Normal Year,Forecast,166.7,171.6,-4.9,-2.9,Normal,0.0
+Nalgonda,Telangana,2025,Sep,9,Normal Year,Forecast,115.1,117.0,-1.9,-1.6,Normal,0.0
+Nalgonda,Telangana,2025,Oct,10,Normal Year,Forecast,77.9,78.0,-0.1,-0.1,Normal,0.0
+Nalgonda,Telangana,2025,Nov,11,Normal Year,Forecast,23.6,23.4,0.2,0.9,Normal,0.7
+Nalgonda,Telangana,2025,Dec,12,Normal Year,Forecast,8.5,7.8,0.7,9.0,Normal,7.2
+Suryapet,Telangana,2025,Jan,1,Early Monsoon,Actual,6.8,8.0,-1.2,-15.0,Normal,0.0
+Suryapet,Telangana,2025,Feb,2,Early Monsoon,Actual,6.8,8.0,-1.2,-15.0,Normal,0.0
+Suryapet,Telangana,2025,Mar,3,Early Monsoon,Forecast,6.8,8.0,-1.2,-15.0,Normal,0.0
+Suryapet,Telangana,2025,Apr,4,Early Monsoon,Forecast,13.6,16.0,-2.4,-15.0,Normal,0.0
+Suryapet,Telangana,2025,May,5,Early Monsoon,Forecast,44.8,32.0,12.8,40.0,Excess,32.0
+Suryapet,Telangana,2025,Jun,6,Early Monsoon,Forecast,168.0,120.0,48.0,40.0,Excess,32.0
+Suryapet,Telangana,2025,Jul,7,Early Monsoon,Forecast,170.0,200.0,-30.0,-15.0,Normal,0.0
+Suryapet,Telangana,2025,Aug,8,Early Monsoon,Forecast,149.6,176.0,-26.4,-15.0,Normal,0.0
+Suryapet,Telangana,2025,Sep,9,Early Monsoon,Forecast,102.0,120.0,-18.0,-15.0,Normal,0.0
+Suryapet,Telangana,2025,Oct,10,Early Monsoon,Forecast,68.0,80.0,-12.0,-15.0,Normal,0.0
+Suryapet,Telangana,2025,Nov,11,Early Monsoon,Forecast,20.4,24.0,-3.6,-15.0,Normal,0.0
+Suryapet,Telangana,2025,Dec,12,Early Monsoon,Forecast,6.8,8.0,-1.2,-15.0,Normal,0.0
+Yadadri Bhuvanagiri,Telangana,2025,Jan,1,Delayed Monsoon,Actual,9.0,8.2,0.8,9.8,Normal,7.8
+Yadadri Bhuvanagiri,Telangana,2025,Feb,2,Delayed Monsoon,Actual,9.0,8.2,0.8,9.8,Normal,7.8
+Yadadri Bhuvanagiri,Telangana,2025,Mar,3,Delayed Monsoon,Forecast,9.0,8.2,0.8,9.8,Normal,7.8
+Yadadri Bhuvanagiri,Telangana,2025,Apr,4,Delayed Monsoon,Forecast,18.0,16.4,1.6,9.8,Normal,7.8
+Yadadri Bhuvanagiri,Telangana,2025,May,5,Delayed Monsoon,Forecast,36.1,32.8,3.3,10.1,Normal,8.0
+Yadadri Bhuvanagiri,Telangana,2025,Jun,6,Delayed Monsoon,Forecast,36.9,123.0,-86.1,-70.0,Deficient,0.0
+Yadadri Bhuvanagiri,Telangana,2025,Jul,7,Delayed Monsoon,Forecast,61.5,205.0,-143.5,-70.0,Deficient,0.0
+Yadadri Bhuvanagiri,Telangana,2025,Aug,8,Delayed Monsoon,Forecast,198.4,180.4,18.0,10.0,Normal,8.0
+Yadadri Bhuvanagiri,Telangana,2025,Sep,9,Delayed Monsoon,Forecast,135.3,123.0,12.3,10.0,Normal,8.0
+Yadadri Bhuvanagiri,Telangana,2025,Oct,10,Delayed Monsoon,Forecast,90.2,82.0,8.2,10.0,Normal,8.0
+Yadadri Bhuvanagiri,Telangana,2025,Nov,11,Delayed Monsoon,Forecast,27.1,24.6,2.5,10.2,Normal,8.1
+Yadadri Bhuvanagiri,Telangana,2025,Dec,12,Delayed Monsoon,Forecast,9.0,8.2,0.8,9.8,Normal,7.8
+Mahabubnagar,Telangana,2025,Jan,1,Flood Year,Actual,12.6,7.0,5.6,80.0,Extremely Excess,64.0
+Mahabubnagar,Telangana,2025,Feb,2,Flood Year,Actual,12.4,7.0,5.4,77.1,Extremely Excess,61.7
+Mahabubnagar,Telangana,2025,Mar,3,Flood Year,Forecast,11.2,7.0,4.2,60.0,Excess,48.0
+Mahabubnagar,Telangana,2025,Apr,4,Flood Year,Forecast,28.1,14.0,14.1,100.7,Extremely Excess,80.6
+Mahabubnagar,Telangana,2025,May,5,Flood Year,Forecast,60.3,28.0,32.3,115.4,Extremely Excess,92.3
+Mahabubnagar,Telangana,2025,Jun,6,Flood Year,Forecast,170.3,105.0,65.3,62.2,Excess,49.8
+Mahabubnagar,Telangana,2025,Jul,7,Flood Year,Forecast,272.4,175.0,97.4,55.7,Excess,44.5
+Mahabubnagar,Telangana,2025,Aug,8,Flood Year,Forecast,291.9,154.0,137.9,89.5,Extremely Excess,71.6
+Mahabubnagar,Telangana,2025,Sep,9,Flood Year,Forecast,189.4,105.0,84.4,80.4,Extremely Excess,64.3
+Mahabubnagar,Telangana,2025,Oct,10,Flood Year,Forecast,122.0,70.0,52.0,74.3,Excess,59.4
+Mahabubnagar,Telangana,2025,Nov,11,Flood Year,Forecast,38.2,21.0,17.2,81.9,Extremely Excess,65.5
+Mahabubnagar,Telangana,2025,Dec,12,Flood Year,Forecast,11.4,7.0,4.4,62.9,Excess,50.3
+Nagarkurnool,Telangana,2025,Jan,1,Drought Year,Actual,4.0,7.2,-3.2,-44.4,Deficient,0.0
+Nagarkurnool,Telangana,2025,Feb,2,Drought Year,Actual,2.7,7.2,-4.5,-62.5,Deficient,0.0
+Nagarkurnool,Telangana,2025,Mar,3,Drought Year,Forecast,2.6,7.2,-4.6,-63.9,Deficient,0.0
+Nagarkurnool,Telangana,2025,Apr,4,Drought Year,Forecast,3.2,14.4,-11.2,-77.8,Deficient,0.0
+Nagarkurnool,Telangana,2025,May,5,Drought Year,Forecast,12.2,28.8,-16.6,-57.6,Deficient,0.0
+Nagarkurnool,Telangana,2025,Jun,6,Drought Year,Forecast,23.6,108.0,-84.4,-78.1,Deficient,0.0
+Nagarkurnool,Telangana,2025,Jul,7,Drought Year,Forecast,70.1,180.0,-109.9,-61.1,Deficient,0.0
+Nagarkurnool,Telangana,2025,Aug,8,Drought Year,Forecast,86.4,158.4,-72.0,-45.5,Deficient,0.0
+Nagarkurnool,Telangana,2025,Sep,9,Drought Year,Forecast,62.9,108.0,-45.1,-41.8,Deficient,0.0
+Nagarkurnool,Telangana,2025,Oct,10,Drought Year,Forecast,22.2,72.0,-49.8,-69.2,Deficient,0.0
+Nagarkurnool,Telangana,2025,Nov,11,Drought Year,Forecast,5.8,21.6,-15.8,-73.1,Deficient,0.0
+Nagarkurnool,Telangana,2025,Dec,12,Drought Year,Forecast,1.6,7.2,-5.6,-77.8,Deficient,0.0
+Wanaparthy,Telangana,2025,Jan,1,Cyclone Risk,Actual,6.9,7.3,-0.4,-5.5,Normal,0.0
+Wanaparthy,Telangana,2025,Feb,2,Cyclone Risk,Actual,6.9,7.3,-0.4,-5.5,Normal,0.0
+Wanaparthy,Telangana,2025,Mar,3,Cyclone Risk,Forecast,6.9,7.3,-0.4,-5.5,Normal,0.0
+Wanaparthy,Telangana,2025,Apr,4,Cyclone Risk,Forecast,13.9,14.6,-0.7,-4.8,Normal,0.0
+Wanaparthy,Telangana,2025,May,5,Cyclone Risk,Forecast,27.7,29.2,-1.5,-5.1,Normal,0.0
+Wanaparthy,Telangana,2025,Jun,6,Cyclone Risk,Forecast,104.0,109.5,-5.5,-5.0,Normal,0.0
+Wanaparthy,Telangana,2025,Jul,7,Cyclone Risk,Forecast,173.4,182.5,-9.1,-5.0,Normal,0.0
+Wanaparthy,Telangana,2025,Aug,8,Cyclone Risk,Forecast,152.6,160.6,-8.0,-5.0,Normal,0.0
+Wanaparthy,Telangana,2025,Sep,9,Cyclone Risk,Forecast,104.0,109.5,-5.5,-5.0,Normal,0.0
+Wanaparthy,Telangana,2025,Oct,10,Cyclone Risk,Forecast,182.5,73.0,109.5,150.0,Extremely Excess,100.0
+Wanaparthy,Telangana,2025,Nov,11,Cyclone Risk,Forecast,54.8,21.9,32.9,150.2,Extremely Excess,100.0
+Wanaparthy,Telangana,2025,Dec,12,Cyclone Risk,Forecast,6.9,7.3,-0.4,-5.5,Normal,0.0
+Gadwal,Telangana,2025,Jan,1,Normal Year,Actual,6.1,6.5,-0.4,-6.2,Normal,0.0
+Gadwal,Telangana,2025,Feb,2,Normal Year,Actual,7.5,6.5,1.0,15.4,Normal,12.3
+Gadwal,Telangana,2025,Mar,3,Normal Year,Forecast,6.3,6.5,-0.2,-3.1,Normal,0.0
+Gadwal,Telangana,2025,Apr,4,Normal Year,Forecast,13.2,13.0,0.2,1.5,Normal,1.2
+Gadwal,Telangana,2025,May,5,Normal Year,Forecast,25.4,26.0,-0.6,-2.3,Normal,0.0
+Gadwal,Telangana,2025,Jun,6,Normal Year,Forecast,106.9,97.5,9.4,9.6,Normal,7.7
+Gadwal,Telangana,2025,Jul,7,Normal Year,Forecast,172.8,162.5,10.3,6.3,Normal,5.1
+Gadwal,Telangana,2025,Aug,8,Normal Year,Forecast,130.7,143.0,-12.3,-8.6,Normal,0.0
+Gadwal,Telangana,2025,Sep,9,Normal Year,Forecast,93.5,97.5,-4.0,-4.1,Normal,0.0
+Gadwal,Telangana,2025,Oct,10,Normal Year,Forecast,62.3,65.0,-2.7,-4.2,Normal,0.0
+Gadwal,Telangana,2025,Nov,11,Normal Year,Forecast,17.8,19.5,-1.7,-8.7,Normal,0.0
+Gadwal,Telangana,2025,Dec,12,Normal Year,Forecast,6.3,6.5,-0.2,-3.1,Normal,0.0
+Narayanpet,Telangana,2025,Jan,1,Early Monsoon,Actual,5.8,6.8,-1.0,-14.7,Normal,0.0
+Narayanpet,Telangana,2025,Feb,2,Early Monsoon,Actual,5.8,6.8,-1.0,-14.7,Normal,0.0
+Narayanpet,Telangana,2025,Mar,3,Early Monsoon,Forecast,5.8,6.8,-1.0,-14.7,Normal,0.0
+Narayanpet,Telangana,2025,Apr,4,Early Monsoon,Forecast,11.6,13.6,-2.0,-14.7,Normal,0.0
+Narayanpet,Telangana,2025,May,5,Early Monsoon,Forecast,38.1,27.2,10.9,40.1,Excess,32.1
+Narayanpet,Telangana,2025,Jun,6,Early Monsoon,Forecast,142.8,102.0,40.8,40.0,Excess,32.0
+Narayanpet,Telangana,2025,Jul,7,Early Monsoon,Forecast,144.5,170.0,-25.5,-15.0,Normal,0.0
+Narayanpet,Telangana,2025,Aug,8,Early Monsoon,Forecast,127.2,149.6,-22.4,-15.0,Normal,0.0
+Narayanpet,Telangana,2025,Sep,9,Early Monsoon,Forecast,86.7,102.0,-15.3,-15.0,Normal,0.0
+Narayanpet,Telangana,2025,Oct,10,Early Monsoon,Forecast,57.8,68.0,-10.2,-15.0,Normal,0.0
+Narayanpet,Telangana,2025,Nov,11,Early Monsoon,Forecast,17.3,20.4,-3.1,-15.2,Normal,0.0
+Narayanpet,Telangana,2025,Dec,12,Early Monsoon,Forecast,5.8,6.8,-1.0,-14.7,Normal,0.0
+Vikarabad,Telangana,2025,Jan,1,Delayed Monsoon,Actual,9.0,8.2,0.8,9.8,Normal,7.8
+Vikarabad,Telangana,2025,Feb,2,Delayed Monsoon,Actual,9.0,8.2,0.8,9.8,Normal,7.8
+Vikarabad,Telangana,2025,Mar,3,Delayed Monsoon,Forecast,9.0,8.2,0.8,9.8,Normal,7.8
+Vikarabad,Telangana,2025,Apr,4,Delayed Monsoon,Forecast,18.0,16.4,1.6,9.8,Normal,7.8
+Vikarabad,Telangana,2025,May,5,Delayed Monsoon,Forecast,36.1,32.8,3.3,10.1,Normal,8.0
+Vikarabad,Telangana,2025,Jun,6,Delayed Monsoon,Forecast,36.9,123.0,-86.1,-70.0,Deficient,0.0
+Vikarabad,Telangana,2025,Jul,7,Delayed Monsoon,Forecast,61.5,205.0,-143.5,-70.0,Deficient,0.0
+Vikarabad,Telangana,2025,Aug,8,Delayed Monsoon,Forecast,198.4,180.4,18.0,10.0,Normal,8.0
+Vikarabad,Telangana,2025,Sep,9,Delayed Monsoon,Forecast,135.3,123.0,12.3,10.0,Normal,8.0
+Vikarabad,Telangana,2025,Oct,10,Delayed Monsoon,Forecast,90.2,82.0,8.2,10.0,Normal,8.0
+Vikarabad,Telangana,2025,Nov,11,Delayed Monsoon,Forecast,27.1,24.6,2.5,10.2,Normal,8.1
+Vikarabad,Telangana,2025,Dec,12,Delayed Monsoon,Forecast,9.0,8.2,0.8,9.8,Normal,7.8
+Siddipet,Telangana,2025,Jan,1,Flood Year,Actual,20.0,9.3,10.7,115.1,Extremely Excess,92.0
+Siddipet,Telangana,2025,Feb,2,Flood Year,Actual,13.8,9.3,4.5,48.4,Excess,38.7
+Siddipet,Telangana,2025,Mar,3,Flood Year,Forecast,17.8,9.3,8.5,91.4,Extremely Excess,73.1
+Siddipet,Telangana,2025,Apr,4,Flood Year,Forecast,27.0,18.6,8.4,45.2,Excess,36.1
+Siddipet,Telangana,2025,May,5,Flood Year,Forecast,66.3,37.2,29.1,78.2,Extremely Excess,62.6
+Siddipet,Telangana,2025,Jun,6,Flood Year,Forecast,301.3,139.5,161.8,116.0,Extremely Excess,92.8
+Siddipet,Telangana,2025,Jul,7,Flood Year,Forecast,508.3,232.5,275.8,118.6,Extremely Excess,94.9
+Siddipet,Telangana,2025,Aug,8,Flood Year,Forecast,378.6,204.6,174.0,85.0,Extremely Excess,68.0
+Siddipet,Telangana,2025,Sep,9,Flood Year,Forecast,254.6,139.5,115.1,82.5,Extremely Excess,66.0
+Siddipet,Telangana,2025,Oct,10,Flood Year,Forecast,193.5,93.0,100.5,108.1,Extremely Excess,86.5
+Siddipet,Telangana,2025,Nov,11,Flood Year,Forecast,45.3,27.9,17.4,62.4,Excess,49.9
+Siddipet,Telangana,2025,Dec,12,Flood Year,Forecast,17.8,9.3,8.5,91.4,Extremely Excess,73.1
+Jangaon,Telangana,2025,Jan,1,Drought Year,Actual,4.1,9.6,-5.5,-57.3,Deficient,0.0
+Jangaon,Telangana,2025,Feb,2,Drought Year,Actual,4.8,9.6,-4.8,-50.0,Deficient,0.0
+Jangaon,Telangana,2025,Mar,3,Drought Year,Forecast,4.8,9.6,-4.8,-50.0,Deficient,0.0
+Jangaon,Telangana,2025,Apr,4,Drought Year,Forecast,11.1,19.2,-8.1,-42.2,Deficient,0.0
+Jangaon,Telangana,2025,May,5,Drought Year,Forecast,16.3,38.4,-22.1,-57.6,Deficient,0.0
+Jangaon,Telangana,2025,Jun,6,Drought Year,Forecast,34.6,144.0,-109.4,-76.0,Deficient,0.0
+Jangaon,Telangana,2025,Jul,7,Drought Year,Forecast,80.2,240.0,-159.8,-66.6,Deficient,0.0
+Jangaon,Telangana,2025,Aug,8,Drought Year,Forecast,75.3,211.2,-135.9,-64.3,Deficient,0.0
+Jangaon,Telangana,2025,Sep,9,Drought Year,Forecast,48.9,144.0,-95.1,-66.0,Deficient,0.0
+Jangaon,Telangana,2025,Oct,10,Drought Year,Forecast,51.1,96.0,-44.9,-46.8,Deficient,0.0
+Jangaon,Telangana,2025,Nov,11,Drought Year,Forecast,9.3,28.8,-19.5,-67.7,Deficient,0.0
+Jangaon,Telangana,2025,Dec,12,Drought Year,Forecast,2.0,9.6,-7.6,-79.2,Deficient,0.0
+Warangal,Telangana,2025,Jan,1,Cyclone Risk,Actual,9.5,10.0,-0.5,-5.0,Normal,0.0
+Warangal,Telangana,2025,Feb,2,Cyclone Risk,Actual,9.5,10.0,-0.5,-5.0,Normal,0.0
+Warangal,Telangana,2025,Mar,3,Cyclone Risk,Forecast,9.5,10.0,-0.5,-5.0,Normal,0.0
+Warangal,Telangana,2025,Apr,4,Cyclone Risk,Forecast,19.0,20.0,-1.0,-5.0,Normal,0.0
+Warangal,Telangana,2025,May,5,Cyclone Risk,Forecast,38.0,40.0,-2.0,-5.0,Normal,0.0
+Warangal,Telangana,2025,Jun,6,Cyclone Risk,Forecast,142.5,150.0,-7.5,-5.0,Normal,0.0
+Warangal,Telangana,2025,Jul,7,Cyclone Risk,Forecast,237.5,250.0,-12.5,-5.0,Normal,0.0
+Warangal,Telangana,2025,Aug,8,Cyclone Risk,Forecast,209.0,220.0,-11.0,-5.0,Normal,0.0
+Warangal,Telangana,2025,Sep,9,Cyclone Risk,Forecast,142.5,150.0,-7.5,-5.0,Normal,0.0
+Warangal,Telangana,2025,Oct,10,Cyclone Risk,Forecast,250.0,100.0,150.0,150.0,Extremely Excess,100.0
+Warangal,Telangana,2025,Nov,11,Cyclone Risk,Forecast,75.0,30.0,45.0,150.0,Extremely Excess,100.0
+Warangal,Telangana,2025,Dec,12,Cyclone Risk,Forecast,9.5,10.0,-0.5,-5.0,Normal,0.0
+Hanamkonda,Telangana,2025,Jan,1,Normal Year,Actual,11.4,9.9,1.5,15.2,Normal,12.1
+Hanamkonda,Telangana,2025,Feb,2,Normal Year,Actual,11.8,9.9,1.9,19.2,Normal,15.4
+Hanamkonda,Telangana,2025,Mar,3,Normal Year,Forecast,10.7,9.9,0.8,8.1,Normal,6.5
+Hanamkonda,Telangana,2025,Apr,4,Normal Year,Forecast,20.2,19.8,0.4,2.0,Normal,1.6
+Hanamkonda,Telangana,2025,May,5,Normal Year,Forecast,40.3,39.6,0.7,1.8,Normal,1.4
+Hanamkonda,Telangana,2025,Jun,6,Normal Year,Forecast,162.9,148.5,14.4,9.7,Normal,7.8
+Hanamkonda,Telangana,2025,Jul,7,Normal Year,Forecast,218.6,247.5,-28.9,-11.7,Normal,0.0
+Hanamkonda,Telangana,2025,Aug,8,Normal Year,Forecast,259.0,217.8,41.2,18.9,Normal,15.1
+Hanamkonda,Telangana,2025,Sep,9,Normal Year,Forecast,148.3,148.5,-0.2,-0.1,Normal,0.0
+Hanamkonda,Telangana,2025,Oct,10,Normal Year,Forecast,102.1,99.0,3.1,3.1,Normal,2.5
+Hanamkonda,Telangana,2025,Nov,11,Normal Year,Forecast,25.6,29.7,-4.1,-13.8,Normal,0.0
+Hanamkonda,Telangana,2025,Dec,12,Normal Year,Forecast,11.2,9.9,1.3,13.1,Normal,10.5
+Mahabubabad,Telangana,2025,Jan,1,Early Monsoon,Actual,8.9,10.5,-1.6,-15.2,Normal,0.0
+Mahabubabad,Telangana,2025,Feb,2,Early Monsoon,Actual,8.9,10.5,-1.6,-15.2,Normal,0.0
+Mahabubabad,Telangana,2025,Mar,3,Early Monsoon,Forecast,8.9,10.5,-1.6,-15.2,Normal,0.0
+Mahabubabad,Telangana,2025,Apr,4,Early Monsoon,Forecast,17.8,21.0,-3.2,-15.2,Normal,0.0
+Mahabubabad,Telangana,2025,May,5,Early Monsoon,Forecast,58.8,42.0,16.8,40.0,Excess,32.0
+Mahabubabad,Telangana,2025,Jun,6,Early Monsoon,Forecast,220.5,157.5,63.0,40.0,Excess,32.0
+Mahabubabad,Telangana,2025,Jul,7,Early Monsoon,Forecast,223.1,262.5,-39.4,-15.0,Normal,0.0
+Mahabubabad,Telangana,2025,Aug,8,Early Monsoon,Forecast,196.3,231.0,-34.7,-15.0,Normal,0.0
+Mahabubabad,Telangana,2025,Sep,9,Early Monsoon,Forecast,133.9,157.5,-23.6,-15.0,Normal,0.0
+Mahabubabad,Telangana,2025,Oct,10,Early Monsoon,Forecast,89.2,105.0,-15.8,-15.0,Normal,0.0
+Mahabubabad,Telangana,2025,Nov,11,Early Monsoon,Forecast,26.8,31.5,-4.7,-14.9,Normal,0.0
+Mahabubabad,Telangana,2025,Dec,12,Early Monsoon,Forecast,8.9,10.5,-1.6,-15.2,Normal,0.0
+Nirmal,Telangana,2025,Jan,1,Delayed Monsoon,Actual,12.1,11.0,1.1,10.0,Normal,8.0
+Nirmal,Telangana,2025,Feb,2,Delayed Monsoon,Actual,12.1,11.0,1.1,10.0,Normal,8.0
+Nirmal,Telangana,2025,Mar,3,Delayed Monsoon,Forecast,12.1,11.0,1.1,10.0,Normal,8.0
+Nirmal,Telangana,2025,Apr,4,Delayed Monsoon,Forecast,24.2,22.0,2.2,10.0,Normal,8.0
+Nirmal,Telangana,2025,May,5,Delayed Monsoon,Forecast,48.4,44.0,4.4,10.0,Normal,8.0
+Nirmal,Telangana,2025,Jun,6,Delayed Monsoon,Forecast,49.5,165.0,-115.5,-70.0,Deficient,0.0
+Nirmal,Telangana,2025,Jul,7,Delayed Monsoon,Forecast,82.5,275.0,-192.5,-70.0,Deficient,0.0
+Nirmal,Telangana,2025,Aug,8,Delayed Monsoon,Forecast,266.2,242.0,24.2,10.0,Normal,8.0
+Nirmal,Telangana,2025,Sep,9,Delayed Monsoon,Forecast,181.5,165.0,16.5,10.0,Normal,8.0
+Nirmal,Telangana,2025,Oct,10,Delayed Monsoon,Forecast,121.0,110.0,11.0,10.0,Normal,8.0
+Nirmal,Telangana,2025,Nov,11,Delayed Monsoon,Forecast,36.3,33.0,3.3,10.0,Normal,8.0
+Nirmal,Telangana,2025,Dec,12,Delayed Monsoon,Forecast,12.1,11.0,1.1,10.0,Normal,8.0
+Adilabad,Telangana,2025,Jan,1,Flood Year,Actual,23.5,11.5,12.0,104.3,Extremely Excess,83.5
+Adilabad,Telangana,2025,Feb,2,Flood Year,Actual,17.0,11.5,5.5,47.8,Excess,38.3
+Adilabad,Telangana,2025,Mar,3,Flood Year,Forecast,25.2,11.5,13.7,119.1,Extremely Excess,95.3
+Adilabad,Telangana,2025,Apr,4,Flood Year,Forecast,38.1,23.0,15.1,65.7,Excess,52.5
+Adilabad,Telangana,2025,May,5,Flood Year,Forecast,92.5,46.0,46.5,101.1,Extremely Excess,80.9
+Adilabad,Telangana,2025,Jun,6,Flood Year,Forecast,315.0,172.5,142.5,82.6,Extremely Excess,66.1
+Adilabad,Telangana,2025,Jul,7,Flood Year,Forecast,496.3,287.5,208.8,72.6,Excess,58.1
+Adilabad,Telangana,2025,Aug,8,Flood Year,Forecast,395.6,253.0,142.6,56.4,Excess,45.1
+Adilabad,Telangana,2025,Sep,9,Flood Year,Forecast,319.7,172.5,147.2,85.3,Extremely Excess,68.3
+Adilabad,Telangana,2025,Oct,10,Flood Year,Forecast,209.1,115.0,94.1,81.8,Extremely Excess,65.5
+Adilabad,Telangana,2025,Nov,11,Flood Year,Forecast,50.9,34.5,16.4,47.5,Excess,38.0
+Adilabad,Telangana,2025,Dec,12,Flood Year,Forecast,16.5,11.5,5.0,43.5,Excess,34.8
+Kumuram Bheem,Telangana,2025,Jan,1,Drought Year,Actual,2.7,13.0,-10.3,-79.2,Deficient,0.0
+Kumuram Bheem,Telangana,2025,Feb,2,Drought Year,Actual,6.9,13.0,-6.1,-46.9,Deficient,0.0
+Kumuram Bheem,Telangana,2025,Mar,3,Drought Year,Forecast,4.1,13.0,-8.9,-68.5,Deficient,0.0
+Kumuram Bheem,Telangana,2025,Apr,4,Drought Year,Forecast,5.5,26.0,-20.5,-78.8,Deficient,0.0
+Kumuram Bheem,Telangana,2025,May,5,Drought Year,Forecast,21.7,52.0,-30.3,-58.3,Deficient,0.0
+Kumuram Bheem,Telangana,2025,Jun,6,Drought Year,Forecast,113.5,195.0,-81.5,-41.8,Deficient,0.0
+Kumuram Bheem,Telangana,2025,Jul,7,Drought Year,Forecast,127.9,325.0,-197.1,-60.6,Deficient,0.0
+Kumuram Bheem,Telangana,2025,Aug,8,Drought Year,Forecast,163.0,286.0,-123.0,-43.0,Deficient,0.0
+Kumuram Bheem,Telangana,2025,Sep,9,Drought Year,Forecast,107.8,195.0,-87.2,-44.7,Deficient,0.0
+Kumuram Bheem,Telangana,2025,Oct,10,Drought Year,Forecast,46.1,130.0,-83.9,-64.5,Deficient,0.0
+Kumuram Bheem,Telangana,2025,Nov,11,Drought Year,Forecast,12.3,39.0,-26.7,-68.5,Deficient,0.0
+Kumuram Bheem,Telangana,2025,Dec,12,Drought Year,Forecast,6.7,13.0,-6.3,-48.5,Deficient,0.0
+Mancherial,Telangana,2025,Jan,1,Cyclone Risk,Actual,10.3,10.8,-0.5,-4.6,Normal,0.0
+Mancherial,Telangana,2025,Feb,2,Cyclone Risk,Actual,10.3,10.8,-0.5,-4.6,Normal,0.0
+Mancherial,Telangana,2025,Mar,3,Cyclone Risk,Forecast,10.3,10.8,-0.5,-4.6,Normal,0.0
+Mancherial,Telangana,2025,Apr,4,Cyclone Risk,Forecast,20.5,21.6,-1.1,-5.1,Normal,0.0
+Mancherial,Telangana,2025,May,5,Cyclone Risk,Forecast,41.0,43.2,-2.2,-5.1,Normal,0.0
+Mancherial,Telangana,2025,Jun,6,Cyclone Risk,Forecast,153.9,162.0,-8.1,-5.0,Normal,0.0
+Mancherial,Telangana,2025,Jul,7,Cyclone Risk,Forecast,256.5,270.0,-13.5,-5.0,Normal,0.0
+Mancherial,Telangana,2025,Aug,8,Cyclone Risk,Forecast,225.7,237.6,-11.9,-5.0,Normal,0.0
+Mancherial,Telangana,2025,Sep,9,Cyclone Risk,Forecast,153.9,162.0,-8.1,-5.0,Normal,0.0
+Mancherial,Telangana,2025,Oct,10,Cyclone Risk,Forecast,270.0,108.0,162.0,150.0,Extremely Excess,100.0
+Mancherial,Telangana,2025,Nov,11,Cyclone Risk,Forecast,81.0,32.4,48.6,150.0,Extremely Excess,100.0
+Mancherial,Telangana,2025,Dec,12,Cyclone Risk,Forecast,10.3,10.8,-0.5,-4.6,Normal,0.0
+Asifabad,Telangana,2025,Jan,1,Normal Year,Actual,14.2,12.0,2.2,18.3,Normal,14.7
+Asifabad,Telangana,2025,Feb,2,Normal Year,Actual,13.8,12.0,1.8,15.0,Normal,12.0
+Asifabad,Telangana,2025,Mar,3,Normal Year,Forecast,10.8,12.0,-1.2,-10.0,Normal,0.0
+Asifabad,Telangana,2025,Apr,4,Normal Year,Forecast,24.8,24.0,0.8,3.3,Normal,2.7
+Asifabad,Telangana,2025,May,5,Normal Year,Forecast,43.7,48.0,-4.3,-9.0,Normal,0.0
+Asifabad,Telangana,2025,Jun,6,Normal Year,Forecast,206.6,180.0,26.6,14.8,Normal,11.8
+Asifabad,Telangana,2025,Jul,7,Normal Year,Forecast,293.2,300.0,-6.8,-2.3,Normal,0.0
+Asifabad,Telangana,2025,Aug,8,Normal Year,Forecast,251.4,264.0,-12.6,-4.8,Normal,0.0
+Asifabad,Telangana,2025,Sep,9,Normal Year,Forecast,183.0,180.0,3.0,1.7,Normal,1.3
+Asifabad,Telangana,2025,Oct,10,Normal Year,Forecast,137.7,120.0,17.7,14.7,Normal,11.8
+Asifabad,Telangana,2025,Nov,11,Normal Year,Forecast,42.8,36.0,6.8,18.9,Normal,15.1
+Asifabad,Telangana,2025,Dec,12,Normal Year,Forecast,13.3,12.0,1.3,10.8,Normal,8.7
