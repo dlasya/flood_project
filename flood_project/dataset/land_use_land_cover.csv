@@ -1,0 +1,56 @@
+District,State,Urban_Percent,Agriculture_Percent,Forest_Percent,Waterbody_Percent,Wasteland_Percent,Impervious_Surface_Percent,Green_Cover_Percent,Runoff_Potential,Urban_Heat_Island_Risk
+Visakhapatnam,Andhra Pradesh,40.4,32.1,9.7,3.1,14.7,30.3,12.9,High,Medium
+Vizianagaram,Andhra Pradesh,15.3,58.4,11.4,2.8,12.1,11.5,17.2,Medium,Low
+Srikakulam,Andhra Pradesh,18.7,65.2,8.3,6.7,1.1,14.0,14.8,Medium,Low
+East Godavari,Andhra Pradesh,14.4,30.1,7.6,10.4,37.5,10.8,10.6,Low,Low
+West Godavari,Andhra Pradesh,18.4,32.3,5.7,12.9,30.7,13.8,8.9,Medium,Low
+Krishna,Andhra Pradesh,22.6,43.9,12.9,10.2,10.4,17.0,17.3,Medium,Low
+Guntur,Andhra Pradesh,59.0,21.0,5.0,5.3,9.7,44.2,7.1,High,High
+Prakasam,Andhra Pradesh,17.2,71.0,14.4,5.5,0.0,12.9,21.5,Medium,Low
+Nellore,Andhra Pradesh,14.3,43.2,6.9,16.9,18.7,10.7,11.2,Low,Low
+Kurnool,Andhra Pradesh,16.3,55.2,9.2,5.7,13.6,12.2,14.7,Medium,Low
+Kadapa,Andhra Pradesh,16.4,54.7,6.7,3.4,18.8,12.3,12.2,Medium,Low
+Anantapur,Andhra Pradesh,13.8,67.2,7.2,2.2,9.6,10.4,13.9,Low,Low
+Chittoor,Andhra Pradesh,19.7,64.8,11.4,7.4,0.0,14.8,17.9,Medium,Low
+Alluri Sitharama Raju,Andhra Pradesh,6.0,19.8,68.4,7.8,0.0,4.5,70.4,Low,Low
+Anakapalli,Andhra Pradesh,11.0,72.3,6.3,3.4,7.0,8.2,13.5,Low,Low
+Bapatla,Andhra Pradesh,26.5,46.4,12.9,20.5,0.0,19.9,17.5,Medium,Medium
+Eluru,Andhra Pradesh,14.7,72.0,15.3,7.8,0.0,11.0,22.5,Low,Low
+Konaseema,Andhra Pradesh,15.5,48.5,13.4,19.7,2.9,11.6,18.2,Medium,Low
+Parvathipuram Manyam,Andhra Pradesh,6.9,20.0,72.8,4.1,0.0,5.2,74.8,Low,Low
+Sri Sathya Sai,Andhra Pradesh,16.4,62.2,13.9,3.5,4.0,12.3,20.1,Medium,Low
+Tirupati,Andhra Pradesh,8.5,66.3,8.5,3.9,12.8,6.4,15.1,Low,Low
+Hyderabad,Telangana,72.8,7.5,3.5,3.1,13.1,54.6,4.2,Very High,Extreme
+Rangareddy,Telangana,73.9,12.5,1.2,1.6,10.8,55.4,2.5,Very High,Extreme
+Medchal Malkajgiri,Telangana,41.4,29.7,8.3,2.5,18.1,31.0,11.3,High,Medium
+Sangareddy,Telangana,19.2,68.4,18.4,7.2,0.0,14.4,25.2,Medium,Low
+Medak,Telangana,18.2,72.8,14.5,6.7,0.0,13.6,21.8,Medium,Low
+Nizamabad,Telangana,12.9,50.7,8.7,6.2,21.5,9.7,13.8,Low,Low
+Kamareddy,Telangana,16.7,67.5,6.9,6.2,2.7,12.5,13.7,Medium,Low
+Jagtial,Telangana,13.3,74.9,13.2,2.2,0.0,10.0,20.7,Low,Low
+Rajanna Sircilla,Telangana,7.8,51.0,9.0,5.3,26.9,5.8,14.1,Low,Low
+Karimnagar,Telangana,15.0,65.2,13.5,5.1,1.2,11.2,20.0,Low,Low
+Peddapalli,Telangana,10.6,72.5,6.3,6.2,4.4,7.9,13.6,Low,Low
+Jayashankar Bhupalpally,Telangana,10.4,61.3,6.0,2.4,19.9,7.8,12.1,Low,Low
+Mulugu,Telangana,6.6,22.7,52.8,3.8,14.1,4.9,55.1,Low,Low
+Bhadradri Kothagudem,Telangana,5.8,24.8,64.5,8.6,0.0,4.3,67.0,Low,Low
+Khammam,Telangana,14.2,53.3,18.7,4.0,9.8,10.6,24.0,Low,Low
+Nalgonda,Telangana,12.5,56.1,14.5,3.0,13.9,9.4,20.1,Low,Low
+Suryapet,Telangana,16.5,51.1,13.5,2.6,16.3,12.4,18.6,Medium,Low
+Yadadri Bhuvanagiri,Telangana,16.0,54.1,19.2,2.1,8.6,12.0,24.6,Medium,Low
+Mahabubnagar,Telangana,7.7,51.1,7.2,2.0,32.0,5.8,12.3,Low,Low
+Nagarkurnool,Telangana,16.5,60.0,18.2,7.0,0.0,12.4,24.2,Medium,Low
+Wanaparthy,Telangana,11.4,56.5,14.4,2.7,15.0,8.6,20.1,Low,Low
+Gadwal,Telangana,12.6,51.1,5.4,3.0,27.9,9.4,10.5,Low,Low
+Narayanpet,Telangana,7.2,57.5,10.1,4.4,20.8,5.4,15.8,Low,Low
+Vikarabad,Telangana,16.2,52.8,9.1,2.4,19.5,12.1,14.4,Medium,Low
+Siddipet,Telangana,12.4,67.5,8.0,2.5,9.6,9.3,14.8,Low,Low
+Jangaon,Telangana,18.7,59.3,8.0,4.0,10.0,14.0,13.9,Medium,Low
+Warangal,Telangana,43.6,32.4,10.5,6.8,6.7,32.7,13.7,High,Medium
+Hanamkonda,Telangana,10.5,62.1,6.6,6.1,14.7,7.9,12.8,Low,Low
+Mahabubabad,Telangana,11.2,74.4,7.4,3.0,4.0,8.4,14.8,Low,Low
+Nirmal,Telangana,13.4,50.5,11.8,2.5,21.8,10.1,16.9,Low,Low
+Adilabad,Telangana,15.5,54.3,8.1,5.9,16.2,11.6,13.5,Medium,Low
+Kumuram Bheem,Telangana,4.3,24.5,55.8,9.4,6.0,3.2,58.2,Low,Low
+Mancherial,Telangana,15.8,53.1,5.1,3.1,22.9,11.9,10.4,Medium,Low
+Asifabad,Telangana,15.1,73.7,5.1,3.8,2.3,11.3,12.5,Medium,Low

@@ -1,0 +1,56 @@
+District,State,Major_Rivers,Number_of_Major_Rivers,Distance_to_Nearest_River_km,Number_of_Waterbodies,Reservoir_Present,Reservoir_Capacity_TMC,Waterbody_Area_sqkm,Flood_Plain_Area_sqkm,River_Bank_Breach_History,Flood_Risk_From_River
+Visakhapatnam,Andhra Pradesh,"Gosthani, Sarada",2,17.6,50,No,25.3,272.0,171.9,Never,Medium
+Vizianagaram,Andhra Pradesh,Minor Stream,1,16.7,28,No,31.6,435.8,149.7,Never,Medium
+Srikakulam,Andhra Pradesh,Minor Stream,1,16.4,9,No,31.3,224.3,136.5,Occasional,Medium
+East Godavari,Andhra Pradesh,Godavari,1,19.9,42,No,23.6,244.6,27.3,Occasional,Low
+West Godavari,Andhra Pradesh,Godavari,1,22.9,15,Yes,24.8,361.5,224.9,Rare,Low
+Krishna,Andhra Pradesh,Krishna,1,21.3,34,No,1.3,426.0,133.0,Rare,Low
+Guntur,Andhra Pradesh,Krishna,1,4.9,36,No,42.6,416.8,62.4,Rare,High
+Prakasam,Andhra Pradesh,Minor Stream,1,9.7,43,No,10.5,23.8,172.0,Rare,Medium
+Nellore,Andhra Pradesh,Penna,1,12.9,52,Yes,0.2,216.7,126.0,Frequent,Medium
+Kurnool,Andhra Pradesh,"Tungabhadra, Krishna",2,11.9,57,No,39.5,73.0,281.8,Rare,Medium
+Kadapa,Andhra Pradesh,Penna,1,23.5,16,No,26.9,199.3,259.1,Never,Low
+Anantapur,Andhra Pradesh,Tungabhadra,1,1.4,36,No,41.0,439.3,48.7,Rare,Extreme
+Chittoor,Andhra Pradesh,Swarnamukhi,1,6.4,22,No,32.5,438.8,182.7,Rare,High
+Alluri Sitharama Raju,Andhra Pradesh,Minor Stream,1,19.7,5,No,38.0,68.8,76.8,Never,Low
+Anakapalli,Andhra Pradesh,Minor Stream,1,24.4,31,No,37.9,132.6,245.2,Occasional,Low
+Bapatla,Andhra Pradesh,Krishna,1,13.9,18,No,17.2,480.8,87.1,Never,Medium
+Eluru,Andhra Pradesh,Godavari,1,1.6,11,Yes,28.2,243.9,171.7,Frequent,Extreme
+Konaseema,Andhra Pradesh,"Godavari, Vasistha",2,24.5,57,Yes,17.1,18.5,222.3,Occasional,Low
+Parvathipuram Manyam,Andhra Pradesh,Minor Stream,1,4.5,10,No,11.3,481.3,78.3,Occasional,High
+Sri Sathya Sai,Andhra Pradesh,Minor Stream,1,1.5,4,Yes,46.2,328.7,180.6,Occasional,Extreme
+Tirupati,Andhra Pradesh,Minor Stream,1,29.4,22,Yes,14.2,447.8,157.2,Frequent,Low
+Hyderabad,Telangana,Musi,1,13.8,14,No,36.4,175.1,32.2,Never,Medium
+Rangareddy,Telangana,"Musi, Krishna",2,7.2,39,Yes,48.5,400.2,189.7,Never,High
+Medchal Malkajgiri,Telangana,Minor Stream,1,12.3,10,No,26.5,382.4,42.3,Rare,Medium
+Sangareddy,Telangana,Minor Stream,1,3.3,17,Yes,2.7,117.5,26.8,Occasional,High
+Medak,Telangana,Minor Stream,1,2.2,51,No,13.1,125.2,123.1,Frequent,High
+Nizamabad,Telangana,"Godavari, Manjira",2,20.5,7,No,14.5,192.1,153.0,Occasional,Low
+Kamareddy,Telangana,Minor Stream,1,6.3,25,No,14.9,327.3,167.7,Never,High
+Jagtial,Telangana,Minor Stream,1,26.9,5,No,32.4,492.5,208.4,Occasional,Low
+Rajanna Sircilla,Telangana,Minor Stream,1,4.6,48,Yes,23.6,153.6,62.8,Rare,High
+Karimnagar,Telangana,"Godavari, Manair",2,20.7,34,No,42.1,242.6,163.1,Frequent,Low
+Peddapalli,Telangana,Minor Stream,1,28.6,34,Yes,39.7,248.4,50.3,Never,Low
+Jayashankar Bhupalpally,Telangana,Minor Stream,1,10.4,57,Yes,28.0,414.2,232.6,Occasional,Medium
+Mulugu,Telangana,Godavari,1,8.6,3,Yes,15.8,202.2,289.9,Occasional,Medium
+Bhadradri Kothagudem,Telangana,Godavari,1,15.9,43,Yes,6.1,103.3,191.7,Frequent,Medium
+Khammam,Telangana,"Krishna, Kinnerasani",2,6.0,30,No,0.8,40.5,103.5,Frequent,High
+Nalgonda,Telangana,"Krishna, Musi",2,22.3,43,Yes,41.3,338.5,125.2,Occasional,Low
+Suryapet,Telangana,Minor Stream,1,4.9,7,Yes,8.3,197.2,156.6,Rare,High
+Yadadri Bhuvanagiri,Telangana,Minor Stream,1,17.8,19,No,49.2,339.7,140.2,Frequent,Medium
+Mahabubnagar,Telangana,Krishna,1,7.1,36,No,47.3,438.4,14.0,Rare,High
+Nagarkurnool,Telangana,Minor Stream,1,29.5,30,Yes,13.9,314.6,68.8,Occasional,Low
+Wanaparthy,Telangana,Minor Stream,1,19.4,11,No,26.5,442.3,187.7,Occasional,Low
+Gadwal,Telangana,Minor Stream,1,10.3,30,No,0.6,146.8,287.3,Never,Medium
+Narayanpet,Telangana,Minor Stream,1,13.5,24,No,8.5,52.1,270.3,Frequent,Medium
+Vikarabad,Telangana,Minor Stream,1,25.8,36,No,11.0,309.0,208.2,Occasional,Low
+Siddipet,Telangana,Minor Stream,1,13.2,1,Yes,18.7,26.4,96.1,Frequent,Medium
+Jangaon,Telangana,Minor Stream,1,16.2,19,No,8.5,477.2,221.2,Rare,Medium
+Warangal,Telangana,Manair,1,17.9,4,No,3.1,170.4,102.3,Never,Medium
+Hanamkonda,Telangana,Minor Stream,1,2.2,48,Yes,28.6,22.3,293.8,Never,High
+Mahabubabad,Telangana,Minor Stream,1,19.0,13,Yes,32.9,76.7,46.6,Frequent,Low
+Nirmal,Telangana,Minor Stream,1,13.2,35,No,45.8,16.5,217.4,Rare,Medium
+Adilabad,Telangana,"Godavari, Penganga",2,8.7,42,No,4.4,380.1,227.8,Rare,Medium
+Kumuram Bheem,Telangana,Minor Stream,1,6.4,59,No,30.1,461.9,212.9,Never,High
+Mancherial,Telangana,Godavari,1,22.6,50,No,5.5,42.9,64.4,Never,Low
+Asifabad,Telangana,Minor Stream,1,11.2,55,No,29.4,48.8,187.8,Frequent,Medium

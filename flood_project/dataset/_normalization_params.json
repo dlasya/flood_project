@@ -1,0 +1,1987 @@
+{
+  "andhra_pradesh_rainfall_summary.csv": {
+    "Year": {
+      "original_min": 2015.0,
+      "original_max": 2024.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Annual_Rainfall_mm": {
+      "original_min": 384.3,
+      "original_max": 2216.7,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Normal_Rainfall_mm": {
+      "original_min": 550.0,
+      "original_max": 1400.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Departure_Percent": {
+      "original_min": -44.9,
+      "original_max": 60.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Monsoon_Rainfall_mm": {
+      "original_min": 345.8,
+      "original_max": 1934.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Pre_Monsoon_mm": {
+      "original_min": 12.4,
+      "original_max": 161.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Post_Monsoon_mm": {
+      "original_min": 1.7,
+      "original_max": 98.6,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Winter_mm": {
+      "original_min": 0.0,
+      "original_max": 66.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Monsoon_Percent": {
+      "original_min": 81.1,
+      "original_max": 93.1,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Occurred": {
+      "original_min": 0.0,
+      "original_max": 1.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Drought_Declared": {
+      "original_min": 0.0,
+      "original_max": 1.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Peak_Rainfall_mm": {
+      "original_min": 99.7,
+      "original_max": 557.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Consecutive_Dry_Days_Avg": {
+      "original_min": 3.0,
+      "original_max": 24.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Heavy_Rain_Days": {
+      "original_min": 0.0,
+      "original_max": 29.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Jan_mm": {
+      "original_min": 0.0,
+      "original_max": 34.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Feb_mm": {
+      "original_min": 0.0,
+      "original_max": 32.7,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Mar_mm": {
+      "original_min": 0.0,
+      "original_max": 31.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Apr_mm": {
+      "original_min": 0.0,
+      "original_max": 54.1,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "May_mm": {
+      "original_min": 8.3,
+      "original_max": 94.7,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Jun_mm": {
+      "original_min": 55.3,
+      "original_max": 318.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Jul_mm": {
+      "original_min": 99.7,
+      "original_max": 557.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Aug_mm": {
+      "original_min": 87.0,
+      "original_max": 491.4,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Sep_mm": {
+      "original_min": 59.7,
+      "original_max": 344.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Oct_mm": {
+      "original_min": 24.7,
+      "original_max": 221.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Nov_mm": {
+      "original_min": 0.0,
+      "original_max": 78.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Dec_mm": {
+      "original_min": 0.0,
+      "original_max": 28.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "daily_rainfall_2020_2024.csv": {
+    "Daily_Rainfall_mm": {
+      "original_min": 0.0,
+      "original_max": 332.4,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Cumulative_Monthly_mm": {
+      "original_min": 0.0,
+      "original_max": 1661.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Alert": {
+      "original_min": 0.0,
+      "original_max": 3.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "district_coordinates.csv": {
+    "Latitude": {
+      "original_min": 13.2,
+      "original_max": 19.66,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Longitude": {
+      "original_min": 77.07,
+      "original_max": 83.91,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "district_distribution_statewise_cleaned.csv": {
+    "SNo": {
+      "original_min": 1.0,
+      "original_max": 36.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "LE": {
+      "original_min": 0.0,
+      "original_max": 24.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "E": {
+      "original_min": 0.0,
+      "original_max": 7.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "N": {
+      "original_min": 0.0,
+      "original_max": 10.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "D": {
+      "original_min": 0.0,
+      "original_max": 22.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "LD": {
+      "original_min": 0.0,
+      "original_max": 26.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "NR": {
+      "original_min": 0.0,
+      "original_max": 37.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "ND": {
+      "original_min": 0.0,
+      "original_max": 3.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Total": {
+      "original_min": 1.0,
+      "original_max": 75.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "district_rainfall_distribution.csv": {
+    "Year": {
+      "original_min": 2015.0,
+      "original_max": 2024.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Annual_Rainfall_mm": {
+      "original_min": 142.7,
+      "original_max": 3483.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Jan_mm": {
+      "original_min": 0.0,
+      "original_max": 43.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Feb_mm": {
+      "original_min": 0.0,
+      "original_max": 46.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Mar_mm": {
+      "original_min": 0.0,
+      "original_max": 37.1,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Apr_mm": {
+      "original_min": 0.0,
+      "original_max": 72.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "May_mm": {
+      "original_min": 1.9,
+      "original_max": 145.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Jun_mm": {
+      "original_min": 17.6,
+      "original_max": 510.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Jul_mm": {
+      "original_min": 31.3,
+      "original_max": 872.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Aug_mm": {
+      "original_min": 27.7,
+      "original_max": 763.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Sep_mm": {
+      "original_min": 26.1,
+      "original_max": 529.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Oct_mm": {
+      "original_min": 10.1,
+      "original_max": 360.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Nov_mm": {
+      "original_min": 0.0,
+      "original_max": 112.6,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Dec_mm": {
+      "original_min": 0.0,
+      "original_max": 45.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Monsoon_Rainfall_mm": {
+      "original_min": 112.8,
+      "original_max": 3037.1,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Monsoon_Percent": {
+      "original_min": 73.1,
+      "original_max": 97.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "drainage_capacity.csv": {
+    "Drainage_Capacity_Percent": {
+      "original_min": 3.7,
+      "original_max": 86.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Drainage_Network_km": {
+      "original_min": 25.0,
+      "original_max": 1190.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Drain_Coverage_Percent": {
+      "original_min": 7.2,
+      "original_max": 94.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Blocked_Drains_Percent": {
+      "original_min": 2.6,
+      "original_max": 53.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Last_Maintenance_Year": {
+      "original_min": 2010.0,
+      "original_max": 2023.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Overflow_Threshold_mm_per_hr": {
+      "original_min": 5.7,
+      "original_max": 60.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Pump_Stations": {
+      "original_min": 0.0,
+      "original_max": 24.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Storm_Water_Capacity_m3": {
+      "original_min": 3127.0,
+      "original_max": 492746.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "elevation_dem.csv": {
+    "Mean_Elevation_m": {
+      "original_min": 5.0,
+      "original_max": 658.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Min_Elevation_m": {
+      "original_min": 1.0,
+      "original_max": 643.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Max_Elevation_m": {
+      "original_min": 60.0,
+      "original_max": 1023.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Elevation_Std_Dev": {
+      "original_min": 5.8,
+      "original_max": 146.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Inundation_Depth_Potential_m": {
+      "original_min": 0.0,
+      "original_max": 3.17,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "flood_threshold_rainfall.csv": {
+    "Flood_Threshold_Daily_mm": {
+      "original_min": 50.0,
+      "original_max": 159.1,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Threshold_3Day_mm": {
+      "original_min": 140.0,
+      "original_max": 445.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Threshold_Weekly_mm": {
+      "original_min": 225.0,
+      "original_max": 715.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Threshold_Annual_mm": {
+      "original_min": 400.0,
+      "original_max": 1272.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Waterlogging_Threshold_mm": {
+      "original_min": 30.0,
+      "original_max": 95.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Extreme_Flood_Threshold_mm": {
+      "original_min": 90.0,
+      "original_max": 286.4,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Historical_Max_Daily_Rainfall_mm": {
+      "original_min": 141.0,
+      "original_max": 610.7,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Return_Period_Years": {
+      "original_min": 2.0,
+      "original_max": 100.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Alert_Level_1_mm": {
+      "original_min": 25.0,
+      "original_max": 79.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Alert_Level_2_mm": {
+      "original_min": 37.5,
+      "original_max": 119.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Alert_Level_3_mm": {
+      "original_min": 50.0,
+      "original_max": 159.1,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Emergency_Level_mm": {
+      "original_min": 75.0,
+      "original_max": 238.6,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "historical_flood_records.csv": {
+    "Year": {
+      "original_min": 2015.0,
+      "original_max": 2024.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Annual_Rainfall_mm": {
+      "original_min": 147.8,
+      "original_max": 3167.1,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Occurred": {
+      "original_min": 0.0,
+      "original_max": 1.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Waterlogging_Days": {
+      "original_min": 0.0,
+      "original_max": 59.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Affected_Villages": {
+      "original_min": 0.0,
+      "original_max": 498.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Affected_Population": {
+      "original_min": 0.0,
+      "original_max": 498865.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Deaths": {
+      "original_min": 0.0,
+      "original_max": 79.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Cattle_Lost": {
+      "original_min": 0.0,
+      "original_max": 4981.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Crop_Area_Damaged_Hectares": {
+      "original_min": 0.0,
+      "original_max": 49870.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Economic_Loss_Crores": {
+      "original_min": 0.0,
+      "original_max": 798.7,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Relief_Camps": {
+      "original_min": 0.0,
+      "original_max": 49.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "NDRF_Deployed": {
+      "original_min": 0.0,
+      "original_max": 1.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "india_statewise_rainfall_summary.csv": {
+    "Year": {
+      "original_min": 2015.0,
+      "original_max": 2024.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Annual_Rainfall_mm": {
+      "original_min": 72.1,
+      "original_max": 12069.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Normal_Rainfall_mm": {
+      "original_min": 102.0,
+      "original_max": 9000.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Departure_Percent": {
+      "original_min": -30.0,
+      "original_max": 34.7,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Monsoon_Rainfall_mm": {
+      "original_min": 54.0,
+      "original_max": 10496.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Monsoon_Percent_of_Annual": {
+      "original_min": 54.7,
+      "original_max": 124.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Events": {
+      "original_min": 0.0,
+      "original_max": 14.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Drought_Declared": {
+      "original_min": 0.0,
+      "original_max": 1.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Peak_Month_Rainfall_mm": {
+      "original_min": 19.8,
+      "original_max": 3005.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Jan_mm": {
+      "original_min": 0.0,
+      "original_max": 117.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Feb_mm": {
+      "original_min": 0.0,
+      "original_max": 130.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Mar_mm": {
+      "original_min": 0.0,
+      "original_max": 135.6,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Apr_mm": {
+      "original_min": 0.0,
+      "original_max": 248.6,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "May_mm": {
+      "original_min": 0.0,
+      "original_max": 479.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Jun_mm": {
+      "original_min": 2.0,
+      "original_max": 1820.6,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Jul_mm": {
+      "original_min": 5.6,
+      "original_max": 3005.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Aug_mm": {
+      "original_min": 3.2,
+      "original_max": 2648.4,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Sep_mm": {
+      "original_min": 0.0,
+      "original_max": 1812.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Oct_mm": {
+      "original_min": 0.0,
+      "original_max": 1210.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Nov_mm": {
+      "original_min": 0.0,
+      "original_max": 343.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Dec_mm": {
+      "original_min": 0.0,
+      "original_max": 138.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "land_use_land_cover.csv": {
+    "Urban_Percent": {
+      "original_min": 4.3,
+      "original_max": 73.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Agriculture_Percent": {
+      "original_min": 7.5,
+      "original_max": 74.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Forest_Percent": {
+      "original_min": 1.2,
+      "original_max": 72.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Waterbody_Percent": {
+      "original_min": 1.6,
+      "original_max": 20.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Wasteland_Percent": {
+      "original_min": 0.0,
+      "original_max": 37.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Impervious_Surface_Percent": {
+      "original_min": 3.2,
+      "original_max": 55.4,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Green_Cover_Percent": {
+      "original_min": 2.5,
+      "original_max": 74.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "master_dataset_with_labels.csv": {
+    "Year": {
+      "original_min": 2015.0,
+      "original_max": 2024.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Annual_Rainfall_mm_x": {
+      "original_min": 119.6,
+      "original_max": 3255.6,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Occurred": {
+      "original_min": 0.0,
+      "original_max": 1.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Waterlogging_Occurred": {
+      "original_min": 0.0,
+      "original_max": 1.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Waterlogging_Days": {
+      "original_min": 0.0,
+      "original_max": 44.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Urban_Inundation_Hours": {
+      "original_min": 0.0,
+      "original_max": 71.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Roads_Blocked_Count": {
+      "original_min": 0.0,
+      "original_max": 79.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Drainage_Overflow": {
+      "original_min": 0.0,
+      "original_max": 1.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flash_Flood": {
+      "original_min": 0.0,
+      "original_max": 1.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Severity_Enc": {
+      "original_min": 1.0,
+      "original_max": 3.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Waterlogging_Severity_Enc": {
+      "original_min": 1.0,
+      "original_max": 4.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Annual_Rainfall_mm_y": {
+      "original_min": 142.7,
+      "original_max": 3483.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Monsoon_Rainfall_mm": {
+      "original_min": 112.8,
+      "original_max": 3037.1,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Monsoon_Percent": {
+      "original_min": 73.1,
+      "original_max": 97.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Rainfall_Category_Enc": {
+      "original_min": 0.0,
+      "original_max": 4.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Risk_Enc": {
+      "original_min": 0.0,
+      "original_max": 3.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Clay_Percent": {
+      "original_min": 10.1,
+      "original_max": 76.6,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Sand_Percent": {
+      "original_min": 5.3,
+      "original_max": 63.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Silt_Percent": {
+      "original_min": 14.9,
+      "original_max": 40.6,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Organic_Matter_Percent": {
+      "original_min": 0.3,
+      "original_max": 2.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "pH": {
+      "original_min": 5.6,
+      "original_max": 8.4,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Permeability_mm_per_hr": {
+      "original_min": 1.5,
+      "original_max": 48.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Absorption_Score": {
+      "original_min": 1.1,
+      "original_max": 9.7,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Soil_Type_Enc": {
+      "original_min": 0.0,
+      "original_max": 8.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Water_Retention_Capacity_Enc": {
+      "original_min": 0.0,
+      "original_max": 3.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Drainage_Speed_Enc": {
+      "original_min": 0.0,
+      "original_max": 3.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Waterlogging_Susceptibility_Enc": {
+      "original_min": 0.0,
+      "original_max": 3.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Mean_Elevation_m": {
+      "original_min": 5.0,
+      "original_max": 658.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Min_Elevation_m": {
+      "original_min": 1.0,
+      "original_max": 643.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Elevation_Std_Dev": {
+      "original_min": 5.8,
+      "original_max": 146.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Inundation_Depth_Potential_m": {
+      "original_min": 0.0,
+      "original_max": 3.17,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Terrain_Type_Enc": {
+      "original_min": 0.0,
+      "original_max": 4.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Risk_Elevation_Enc": {
+      "original_min": 0.0,
+      "original_max": 3.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Urban_Percent": {
+      "original_min": 4.3,
+      "original_max": 73.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Waterbody_Percent": {
+      "original_min": 1.6,
+      "original_max": 20.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Impervious_Surface_Percent": {
+      "original_min": 3.2,
+      "original_max": 55.4,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Runoff_Potential_Enc": {
+      "original_min": 0.0,
+      "original_max": 3.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Urban_Heat_Island_Risk_Enc": {
+      "original_min": 0.0,
+      "original_max": 3.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Drainage_Capacity_Percent": {
+      "original_min": 3.7,
+      "original_max": 86.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Drain_Coverage_Percent": {
+      "original_min": 7.2,
+      "original_max": 94.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Blocked_Drains_Percent": {
+      "original_min": 2.6,
+      "original_max": 53.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Overflow_Threshold_mm_per_hr": {
+      "original_min": 5.7,
+      "original_max": 60.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Pump_Stations": {
+      "original_min": 0.0,
+      "original_max": 24.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Drainage_Quality_Enc": {
+      "original_min": 0.0,
+      "original_max": 4.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Waterlogging_Risk_Enc": {
+      "original_min": 0.0,
+      "original_max": 3.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Drainage_Type_Enc": {
+      "original_min": 0.0,
+      "original_max": 4.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Mean_Slope_Degrees": {
+      "original_min": 0.1,
+      "original_max": 30.92,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Runoff_Coefficient": {
+      "original_min": 0.26,
+      "original_max": 0.92,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Impervious_Runoff_mm_per_100mm_rain": {
+      "original_min": 26.0,
+      "original_max": 92.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Time_to_Peak_Flow_hrs": {
+      "original_min": 0.7,
+      "original_max": 11.7,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Curve_Number": {
+      "original_min": 56.0,
+      "original_max": 97.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Slope_Category_Enc": {
+      "original_min": 0.0,
+      "original_max": 4.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Waterlogging_Potential_Enc": {
+      "original_min": 0.0,
+      "original_max": 4.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flow_Speed_Enc": {
+      "original_min": 0.0,
+      "original_max": 4.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Threshold_Daily_mm": {
+      "original_min": 50.0,
+      "original_max": 159.1,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Waterlogging_Threshold_mm": {
+      "original_min": 30.0,
+      "original_max": 95.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Alert_Level_1_mm": {
+      "original_min": 25.0,
+      "original_max": 79.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Alert_Level_2_mm": {
+      "original_min": 37.5,
+      "original_max": 119.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Alert_Level_3_mm": {
+      "original_min": 50.0,
+      "original_max": 159.1,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Emergency_Level_mm": {
+      "original_min": 75.0,
+      "original_max": 238.6,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Base_Flood_Risk_Enc": {
+      "original_min": 0.0,
+      "original_max": 2.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "IMD_Category_Enc": {
+      "original_min": 0.0,
+      "original_max": 2.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Number_of_Major_Rivers": {
+      "original_min": 1.0,
+      "original_max": 2.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Distance_to_Nearest_River_km": {
+      "original_min": 1.4,
+      "original_max": 29.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Number_of_Waterbodies": {
+      "original_min": 1.0,
+      "original_max": 59.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Plain_Area_sqkm": {
+      "original_min": 14.0,
+      "original_max": 293.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Risk_River_Enc": {
+      "original_min": 0.0,
+      "original_max": 3.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Breach_History_Enc": {
+      "original_min": 0.0,
+      "original_max": 3.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Reservoir_Enc": {
+      "original_min": 0.0,
+      "original_max": 1.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Population_Density_per_sqkm": {
+      "original_min": 45.0,
+      "original_max": 18480.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Urban_Population_Percent": {
+      "original_min": 11.9,
+      "original_max": 89.4,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Vulnerable_Population_Percent": {
+      "original_min": 10.2,
+      "original_max": 35.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Exposure_Index": {
+      "original_min": 0.73,
+      "original_max": 10.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Avg_Soil_Moisture": {
+      "original_min": 4.733333333333333,
+      "original_max": 65.35000000000001,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Max_Soil_Moisture": {
+      "original_min": 12.9,
+      "original_max": 94.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Avg_Excess_Water": {
+      "original_min": 0.0,
+      "original_max": 18.58333333333333,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Max_Saturation_Enc": {
+      "original_min": 0.0,
+      "original_max": 4.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Max_Waterlogging_Risk_Enc": {
+      "original_min": 0.0,
+      "original_max": 3.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "pincode_coordinates.csv": {
+    "Pincode": {
+      "original_min": 500001.0,
+      "original_max": 535001.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Latitude": {
+      "original_min": 13.217,
+      "original_max": 19.68,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Longitude": {
+      "original_min": 77.601,
+      "original_max": 83.894,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "pincode_district_mapping.csv": {
+    "Pincode": {
+      "original_min": 500001.0,
+      "original_max": 535003.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "population_density.csv": {
+    "Population_2011": {
+      "original_min": 119196.0,
+      "original_max": 79519440.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Population_Density_per_sqkm": {
+      "original_min": 45.0,
+      "original_max": 18480.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Area_sqkm": {
+      "original_min": 810.0,
+      "original_max": 5865.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Urban_Population_Percent": {
+      "original_min": 11.9,
+      "original_max": 89.4,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Rural_Population_Percent": {
+      "original_min": 10.6,
+      "original_max": 88.1,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Population_Growth_Rate": {
+      "original_min": 5.9,
+      "original_max": 21.4,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Vulnerable_Population_Percent": {
+      "original_min": 10.2,
+      "original_max": 35.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Exposure_Index": {
+      "original_min": 0.73,
+      "original_max": 10.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "rainfall_2025.csv": {
+    "Year": {
+      "original_min": 2025.0,
+      "original_max": 2025.0,
+      "normalized_min": 0,
+      "normalized_max": 1,
+      "status": "constant_column"
+    },
+    "Month_Number": {
+      "original_min": 1.0,
+      "original_max": 12.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Rainfall_mm": {
+      "original_min": 1.6,
+      "original_max": 613.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Normal_Rainfall_mm": {
+      "original_min": 5.5,
+      "original_max": 350.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Departure_mm": {
+      "original_min": -232.3,
+      "original_max": 313.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Departure_Percent": {
+      "original_min": -79.5,
+      "original_max": 150.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Probability_Percent": {
+      "original_min": 0.0,
+      "original_max": 100.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "river_waterbody_proximity.csv": {
+    "Number_of_Major_Rivers": {
+      "original_min": 1.0,
+      "original_max": 2.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Distance_to_Nearest_River_km": {
+      "original_min": 1.4,
+      "original_max": 29.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Number_of_Waterbodies": {
+      "original_min": 1.0,
+      "original_max": 59.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Reservoir_Capacity_TMC": {
+      "original_min": 0.2,
+      "original_max": 49.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Waterbody_Area_sqkm": {
+      "original_min": 16.5,
+      "original_max": 492.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Plain_Area_sqkm": {
+      "original_min": 14.0,
+      "original_max": 293.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "slope_runoff_coefficient.csv": {
+    "Mean_Slope_Degrees": {
+      "original_min": 0.1,
+      "original_max": 30.92,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Max_Slope_Degrees": {
+      "original_min": 0.2,
+      "original_max": 100.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Runoff_Coefficient": {
+      "original_min": 0.26,
+      "original_max": 0.92,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Impervious_Runoff_mm_per_100mm_rain": {
+      "original_min": 26.0,
+      "original_max": 92.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Time_to_Peak_Flow_hrs": {
+      "original_min": 0.7,
+      "original_max": 11.7,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Curve_Number": {
+      "original_min": 56.0,
+      "original_max": 97.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "soil_moisture_2020.csv": {
+    "Year": {
+      "original_min": 2020.0,
+      "original_max": 2020.0,
+      "normalized_min": 0,
+      "normalized_max": 1,
+      "status": "constant_column"
+    },
+    "Month_Number": {
+      "original_min": 1.0,
+      "original_max": 12.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Soil_Moisture_Percent": {
+      "original_min": 0.0,
+      "original_max": 94.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Field_Capacity_Percent": {
+      "original_min": 25.1,
+      "original_max": 45.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Wilting_Point_Percent": {
+      "original_min": 8.0,
+      "original_max": 18.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Excess_Water_mm": {
+      "original_min": 0.0,
+      "original_max": 55.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "soil_type.csv": {
+    "Clay_Percent": {
+      "original_min": 10.1,
+      "original_max": 76.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Sand_Percent": {
+      "original_min": 5.3,
+      "original_max": 63.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Silt_Percent": {
+      "original_min": 14.9,
+      "original_max": 43.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Organic_Matter_Percent": {
+      "original_min": 0.3,
+      "original_max": 2.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "pH": {
+      "original_min": 5.6,
+      "original_max": 8.4,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Permeability_mm_per_hr": {
+      "original_min": 1.5,
+      "original_max": 48.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Absorption_Score": {
+      "original_min": 1.1,
+      "original_max": 9.7,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "soil_type_accurate.csv": {
+    "Clay_Percent": {
+      "original_min": 16.0,
+      "original_max": 52.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Sand_Percent": {
+      "original_min": 18.0,
+      "original_max": 58.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Silt_Percent": {
+      "original_min": 26.0,
+      "original_max": 36.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Organic_Matter_Percent": {
+      "original_min": 0.4,
+      "original_max": 2.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "pH": {
+      "original_min": 5.5,
+      "original_max": 8.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Permeability_mm_per_hr": {
+      "original_min": 6.0,
+      "original_max": 50.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Absorption_Score": {
+      "original_min": 2.5,
+      "original_max": 8.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "telangana_andhra_pincodes.csv": {
+    "pincode": {
+      "original_min": 305402.0,
+      "original_max": 799001.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  },
+  "telangana_rainfall_summary.csv": {
+    "Year": {
+      "original_min": 2015.0,
+      "original_max": 2024.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Annual_Rainfall_mm": {
+      "original_min": 389.3,
+      "original_max": 2061.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Normal_Rainfall_mm": {
+      "original_min": 650.0,
+      "original_max": 1350.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Departure_Percent": {
+      "original_min": -44.9,
+      "original_max": 59.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Monsoon_Rainfall_mm": {
+      "original_min": 322.6,
+      "original_max": 1797.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Pre_Monsoon_mm": {
+      "original_min": 4.1,
+      "original_max": 162.7,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Post_Monsoon_mm": {
+      "original_min": 2.8,
+      "original_max": 99.7,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Winter_mm": {
+      "original_min": 0.0,
+      "original_max": 56.7,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Monsoon_Percent": {
+      "original_min": 79.6,
+      "original_max": 96.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Flood_Occurred": {
+      "original_min": 0.0,
+      "original_max": 1.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Drought_Declared": {
+      "original_min": 0.0,
+      "original_max": 1.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Peak_Rainfall_mm": {
+      "original_min": 90.9,
+      "original_max": 521.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Consecutive_Dry_Days_Avg": {
+      "original_min": 3.0,
+      "original_max": 24.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Heavy_Rain_Days": {
+      "original_min": 0.0,
+      "original_max": 29.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Jan_mm": {
+      "original_min": 0.0,
+      "original_max": 33.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Feb_mm": {
+      "original_min": 0.0,
+      "original_max": 29.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Mar_mm": {
+      "original_min": 0.0,
+      "original_max": 31.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Apr_mm": {
+      "original_min": 0.0,
+      "original_max": 53.0,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "May_mm": {
+      "original_min": 4.1,
+      "original_max": 89.5,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Jun_mm": {
+      "original_min": 53.4,
+      "original_max": 315.8,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Jul_mm": {
+      "original_min": 89.9,
+      "original_max": 521.9,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Aug_mm": {
+      "original_min": 79.5,
+      "original_max": 463.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Sep_mm": {
+      "original_min": 50.4,
+      "original_max": 311.4,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Oct_mm": {
+      "original_min": 28.4,
+      "original_max": 218.3,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Nov_mm": {
+      "original_min": 1.5,
+      "original_max": 68.6,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    },
+    "Dec_mm": {
+      "original_min": 0.0,
+      "original_max": 33.2,
+      "normalized_min": 0.0,
+      "normalized_max": 1.0,
+      "status": "normalized"
+    }
+  }
+}
