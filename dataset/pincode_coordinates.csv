@@ -1,0 +1,61 @@
+Pincode,District,State,Latitude,Longitude,Region_Type,Taluk,Flood_Zone
+530001,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Urban,Visakhapatnam,Zone II
+530002,Visakhapatnam,Andhra Pradesh,17.72,83.29,Urban,Visakhapatnam,Zone IV
+530026,Visakhapatnam,Andhra Pradesh,17.65,83.18,Semi-Urban,Visakhapatnam,Zone IV
+530040,Visakhapatnam,Andhra Pradesh,17.78,83.37,Semi-Urban,Visakhapatnam,Zone III
+530046,Visakhapatnam,Andhra Pradesh,17.8,83.4,Rural,Visakhapatnam,Zone IV
+533001,East Godavari,Andhra Pradesh,17.005,81.78,Urban,East Godavari,Zone II
+533003,East Godavari,Andhra Pradesh,16.98,81.75,Rural,East Godavari,Zone III
+533201,East Godavari,Andhra Pradesh,17.1,81.9,Rural,East Godavari,Zone III
+534001,West Godavari,Andhra Pradesh,16.91,81.3,Urban,West Godavari,Zone IV
+534002,West Godavari,Andhra Pradesh,16.93,81.33,Semi-Urban,West Godavari,Zone II
+520001,Krishna,Andhra Pradesh,16.506,80.648,Urban,Krishna,Zone III
+520010,Krishna,Andhra Pradesh,16.52,80.67,Urban,Krishna,Zone II
+521001,Krishna,Andhra Pradesh,16.44,80.6,Semi-Urban,Krishna,Zone II
+522001,Guntur,Andhra Pradesh,16.307,80.437,Urban,Guntur,Zone III
+522002,Guntur,Andhra Pradesh,16.32,80.45,Urban,Guntur,Zone III
+522201,Guntur,Andhra Pradesh,16.2,80.35,Rural,Guntur,Zone IV
+524001,Nellore,Andhra Pradesh,14.443,79.987,Urban,Nellore,Zone IV
+524002,Nellore,Andhra Pradesh,14.46,80.0,Semi-Urban,Nellore,Zone III
+518001,Kurnool,Andhra Pradesh,15.828,78.037,Urban,Kurnool,Zone II
+518002,Kurnool,Andhra Pradesh,15.84,78.05,Urban,Kurnool,Zone III
+516001,Kadapa,Andhra Pradesh,14.467,78.824,Urban,Kadapa,Zone II
+515001,Anantapur,Andhra Pradesh,14.682,77.601,Urban,Anantapur,Zone IV
+515002,Anantapur,Andhra Pradesh,14.7,77.62,Semi-Urban,Anantapur,Zone II
+517001,Chittoor,Andhra Pradesh,13.217,79.1,Urban,Chittoor,Zone II
+517501,Tirupati,Andhra Pradesh,13.629,79.419,Urban,Tirupati,Zone I
+517502,Tirupati,Andhra Pradesh,13.64,79.43,Urban,Tirupati,Zone II
+535001,Vizianagaram,Andhra Pradesh,18.107,83.396,Urban,Vizianagaram,Zone III
+532001,Srikakulam,Andhra Pradesh,18.295,83.894,Urban,Srikakulam,Zone III
+500001,Hyderabad,Telangana,17.385,78.487,Urban,Hyderabad,Zone I
+500002,Hyderabad,Telangana,17.39,78.47,Urban,Hyderabad,Zone IV
+500003,Hyderabad,Telangana,17.41,78.5,Urban,Hyderabad,Zone III
+500004,Hyderabad,Telangana,17.4,78.46,Urban,Hyderabad,Zone III
+500008,Hyderabad,Telangana,17.44,78.48,Urban,Hyderabad,Zone II
+500016,Hyderabad,Telangana,17.42,78.44,Urban,Hyderabad,Zone I
+500018,Hyderabad,Telangana,17.405,78.46,Urban,Hyderabad,Zone IV
+500029,Hyderabad,Telangana,17.43,78.39,Urban,Hyderabad,Zone II
+500032,Rangareddy,Telangana,17.33,78.35,Urban,Rangareddy,Zone III
+500034,Rangareddy,Telangana,17.31,78.32,Semi-Urban,Rangareddy,Zone III
+500075,Rangareddy,Telangana,17.29,78.29,Semi-Urban,Rangareddy,Zone I
+501501,Rangareddy,Telangana,17.2,78.1,Rural,Rangareddy,Zone III
+500072,Medchal Malkajgiri,Telangana,17.5,78.55,Semi-Urban,Medchal Malkajgiri,Zone I
+500087,Medchal Malkajgiri,Telangana,17.53,78.58,Urban,Medchal Malkajgiri,Zone III
+502001,Sangareddy,Telangana,17.62,78.07,Urban,Sangareddy,Zone IV
+502032,Sangareddy,Telangana,17.58,78.02,Rural,Sangareddy,Zone IV
+503001,Nizamabad,Telangana,18.673,78.094,Urban,Nizamabad,Zone IV
+503002,Nizamabad,Telangana,18.69,78.11,Semi-Urban,Nizamabad,Zone II
+505001,Karimnagar,Telangana,18.439,79.129,Urban,Karimnagar,Zone II
+505002,Karimnagar,Telangana,18.45,79.14,Urban,Karimnagar,Zone II
+506001,Warangal,Telangana,17.978,79.594,Urban,Warangal,Zone IV
+506002,Warangal,Telangana,17.99,79.61,Urban,Warangal,Zone I
+506003,Warangal,Telangana,17.96,79.57,Semi-Urban,Warangal,Zone III
+507001,Khammam,Telangana,17.247,80.151,Urban,Khammam,Zone IV
+507002,Khammam,Telangana,17.26,80.17,Semi-Urban,Khammam,Zone II
+508001,Nalgonda,Telangana,17.058,79.267,Urban,Nalgonda,Zone III
+509001,Mahabubnagar,Telangana,16.737,77.983,Urban,Mahabubnagar,Zone IV
+509002,Mahabubnagar,Telangana,16.75,78.0,Semi-Urban,Mahabubnagar,Zone I
+504001,Adilabad,Telangana,19.664,78.532,Urban,Adilabad,Zone III
+504002,Adilabad,Telangana,19.68,78.55,Semi-Urban,Adilabad,Zone III
+504201,Adilabad,Telangana,19.5,78.4,Rural,Adilabad,Zone II
+504251,Asifabad,Telangana,19.37,79.28,Rural,Asifabad,Zone III

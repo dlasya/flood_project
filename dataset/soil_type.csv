@@ -1,0 +1,56 @@
+District,State,Soil_Type,Clay_Percent,Sand_Percent,Silt_Percent,Organic_Matter_Percent,Water_Retention_Capacity,Drainage_Speed,Waterlogging_Susceptibility,pH,Permeability_mm_per_hr,Flood_Absorption_Score
+Visakhapatnam,Andhra Pradesh,Loam,25.7,42.5,30.7,1.3,Medium,Moderate,Medium,7.4,31.2,7.9
+Vizianagaram,Andhra Pradesh,Alluvial,32.5,39.0,31.1,1.2,High,Slow,High,7.7,29.1,2.7
+Srikakulam,Andhra Pradesh,Laterite,41.6,47.8,26.2,1.0,Low,Fast,Low,7.8,17.0,8.2
+East Godavari,Andhra Pradesh,Black Cotton,54.2,8.3,25.2,1.8,Very High,Very Slow,Extreme,7.4,39.9,5.1
+West Godavari,Andhra Pradesh,Black Cotton,57.1,12.8,26.8,1.8,Very High,Very Slow,Extreme,8.0,34.7,3.3
+Krishna,Andhra Pradesh,Sandy Loam,10.1,63.2,29.7,0.6,Low,Fast,Low,7.5,17.0,4.5
+Guntur,Andhra Pradesh,Sandy Loam,10.4,52.2,30.6,0.6,Low,Fast,Low,8.4,11.5,7.5
+Prakasam,Andhra Pradesh,Black Cotton,64.2,18.5,29.6,2.2,Very High,Very Slow,Extreme,8.1,45.9,5.6
+Nellore,Andhra Pradesh,Alluvial,29.4,37.2,36.8,1.4,High,Slow,High,7.5,43.7,5.1
+Kurnool,Andhra Pradesh,Loam,32.4,33.7,33.4,1.2,Medium,Moderate,Medium,7.1,45.4,8.0
+Kadapa,Andhra Pradesh,Heavy Clay,70.9,8.6,16.7,2.2,Very High,Very Slow,Extreme,6.3,24.4,3.0
+Anantapur,Andhra Pradesh,Black Cotton,62.8,19.2,20.6,2.2,Very High,Very Slow,Extreme,8.4,5.0,7.4
+Chittoor,Andhra Pradesh,Red Loamy,29.5,52.0,29.9,1.1,Medium,Moderate,Medium,7.5,46.2,9.2
+Alluri Sitharama Raju,Andhra Pradesh,Laterite,27.9,40.3,25.5,0.5,Low,Fast,Low,8.2,1.8,6.4
+Anakapalli,Andhra Pradesh,Sandy Loam,11.3,52.5,27.4,0.8,Low,Fast,Low,6.7,27.2,8.4
+Bapatla,Andhra Pradesh,Alluvial,30.3,40.2,33.0,1.3,High,Slow,High,7.9,22.8,6.8
+Eluru,Andhra Pradesh,Heavy Clay,76.8,11.6,18.7,2.5,Very High,Very Slow,Extreme,8.4,4.8,3.2
+Konaseema,Andhra Pradesh,Black Cotton,60.7,17.2,24.1,1.8,Very High,Very Slow,Extreme,8.3,2.8,6.6
+Parvathipuram Manyam,Andhra Pradesh,Sandy Loam,16.4,52.2,19.4,1.3,Low,Fast,Low,6.6,47.0,2.5
+Sri Sathya Sai,Andhra Pradesh,Loam,19.9,42.2,33.0,1.9,Medium,Moderate,Medium,5.7,23.8,9.7
+Tirupati,Andhra Pradesh,Laterite,29.0,32.6,22.5,1.2,Low,Fast,Low,6.4,34.9,4.9
+Hyderabad,Telangana,Black Cotton,56.3,7.8,26.0,2.3,Very High,Very Slow,Extreme,6.8,19.7,4.8
+Rangareddy,Telangana,Alluvial,29.4,42.9,38.8,1.2,High,Slow,High,8.1,48.5,2.4
+Medchal Malkajgiri,Telangana,Alluvial,20.1,31.8,39.4,1.4,High,Slow,High,7.3,46.6,6.5
+Sangareddy,Telangana,Loam,31.6,45.0,29.9,1.3,Medium,Moderate,Medium,7.1,4.3,7.2
+Medak,Telangana,Heavy Clay,74.9,10.5,14.9,2.5,Very High,Very Slow,Extreme,6.4,16.9,1.1
+Nizamabad,Telangana,Laterite,29.9,38.9,25.1,1.0,Low,Fast,Low,6.2,45.0,1.4
+Kamareddy,Telangana,Alluvial,25.6,37.0,42.7,2.0,High,Slow,High,5.6,2.6,1.1
+Jagtial,Telangana,Alluvial,33.9,33.0,33.6,1.8,High,Slow,High,5.6,37.7,3.0
+Rajanna Sircilla,Telangana,Red Sandy,31.0,47.9,35.7,1.6,Medium,Moderate,Medium,5.9,26.0,9.4
+Karimnagar,Telangana,Laterite,35.1,46.9,23.0,0.5,Low,Fast,Low,5.7,43.4,6.2
+Peddapalli,Telangana,Black Cotton,64.5,15.7,25.7,2.7,Very High,Very Slow,Extreme,7.6,13.2,6.2
+Jayashankar Bhupalpally,Telangana,Red Sandy,25.3,40.5,39.7,1.7,Medium,Moderate,Medium,8.1,19.8,3.0
+Mulugu,Telangana,Heavy Clay,70.4,10.4,25.0,2.3,Very High,Very Slow,Extreme,8.4,6.8,5.5
+Bhadradri Kothagudem,Telangana,Black Cotton,53.2,18.6,29.9,2.1,Very High,Very Slow,Extreme,6.2,2.8,1.8
+Khammam,Telangana,Heavy Clay,65.3,10.9,22.7,2.4,Very High,Very Slow,Extreme,5.7,32.4,5.6
+Nalgonda,Telangana,Black Cotton,54.5,9.8,27.2,2.2,Very High,Very Slow,Extreme,6.1,29.7,6.4
+Suryapet,Telangana,Loam,26.0,45.0,37.1,1.7,Medium,Moderate,Medium,7.3,46.1,4.8
+Yadadri Bhuvanagiri,Telangana,Heavy Clay,76.6,8.8,15.9,2.2,Very High,Very Slow,Extreme,7.3,10.7,4.7
+Mahabubnagar,Telangana,Alluvial,34.3,30.1,38.3,1.2,High,Slow,High,6.3,41.5,6.0
+Nagarkurnool,Telangana,Laterite,40.9,46.3,29.2,0.8,Low,Fast,Low,7.7,22.6,6.8
+Wanaparthy,Telangana,Clay Loam,45.1,36.8,26.0,1.4,High,Slow,High,5.9,15.6,2.4
+Gadwal,Telangana,Laterite,33.1,36.4,22.7,0.9,Low,Fast,Low,5.9,27.7,7.4
+Narayanpet,Telangana,Alluvial,29.1,36.5,43.0,2.0,High,Slow,High,5.7,43.1,9.4
+Vikarabad,Telangana,Laterite,39.0,42.4,20.0,0.3,Low,Fast,Low,6.7,5.4,8.9
+Siddipet,Telangana,Red Sandy,20.5,37.2,33.6,1.2,Medium,Moderate,Medium,7.7,42.1,4.8
+Jangaon,Telangana,Clay Loam,33.5,29.6,28.5,1.4,High,Slow,High,7.7,12.2,3.0
+Warangal,Telangana,Heavy Clay,62.6,15.5,25.0,2.1,Very High,Very Slow,Extreme,7.7,6.6,6.2
+Hanamkonda,Telangana,Heavy Clay,66.1,5.3,18.1,2.4,Very High,Very Slow,Extreme,6.8,1.5,7.5
+Mahabubabad,Telangana,Loam,32.1,43.2,40.1,2.0,Medium,Moderate,Medium,6.5,3.9,8.3
+Nirmal,Telangana,Heavy Clay,72.6,11.2,16.4,2.1,Very High,Very Slow,Extreme,8.0,24.5,6.1
+Adilabad,Telangana,Heavy Clay,71.5,17.7,18.2,2.8,Very High,Very Slow,Extreme,7.5,36.7,4.5
+Kumuram Bheem,Telangana,Red Sandy,21.5,37.2,33.0,1.7,Medium,Moderate,Medium,6.5,10.9,8.7
+Mancherial,Telangana,Laterite,34.4,35.1,20.9,1.2,Low,Fast,Low,6.9,33.0,5.9
+Asifabad,Telangana,Red Sandy,23.5,46.2,38.6,1.6,Medium,Moderate,Medium,7.9,31.8,3.7

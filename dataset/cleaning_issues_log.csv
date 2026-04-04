@@ -1,0 +1,4 @@
+Dataset,Issue Found,Action Taken
+daily_rainfall,Flood alert days: 459/21924 (2.1%),Noted for model training
+soil_type,18 rows where Clay+Sand+Silt > 105%,Normalized to 100%
+soil_moisture,7 rows: moisture<70 but excess_water>0,Set excess_water to 0
