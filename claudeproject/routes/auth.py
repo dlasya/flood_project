@@ -137,8 +137,6 @@ def signup():
             return jsonify({'error': 'Password is required'}), 400
         if user_type not in ('user', 'planner'):
             return jsonify({'error': 'Invalid account type'}), 400
-        if user_type == 'planner' and not access:
-            return jsonify({'error': 'Planner access value is required'}), 400
 
         users = _read_users()
         if user_id in users:

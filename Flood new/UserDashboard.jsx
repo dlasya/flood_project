@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { 
   Droplets, MapPin, Zap, AlertTriangle, CloudRain, 
   Mountain, Layers, Gauge, Calendar, TrendingUp, Shield,
-  Home, Bell, History, LogOut, Menu, X
+  Home, Bell, History, LogOut, Menu, X, MessageSquare, Send
 } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -99,11 +99,21 @@ export default function UserDashboard() {
   const [showWaterlogAlert, setShowWaterlogAlert] = useState(false);
   const [activeNav, setActiveNav] = useState('Dashboard');
   const [history, setHistory] = useState([]);
+  const [showIssueForm, setShowIssueForm] = useState(false);
+  const [issueForm, setIssueForm] = useState({
+    issue_type: '',
+    description: '',
+    reporter_name: '',
+    reporter_contact: '',
+    location_details: '',
+    severity: 'medium'
+  });
+  const [issueSubmitting, setIssueSubmitting] = useState(false);
 
   useEffect(() => {
     const storedUser = sessionStorage.getItem('floodsense_user');
     if (!storedUser) {
-      navigate('/Login');
+      navigate('/');
       return;
     }
     setUser(JSON.parse(storedUser));
@@ -111,7 +121,7 @@ export default function UserDashboard() {
 
   const handleLogout = () => {
     sessionStorage.removeItem('floodsense_user');
-    navigate('/Login');
+    navigate('/');
   };
 
   const handleAnalyze = async () => {
@@ -184,6 +194,57 @@ export default function UserDashboard() {
       alert("Failed to fetch prediction from backend. Please ensure backend is running.");
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleIssueSubmit = async () => {
+    if (!prediction) return;
+    
+    // Validate required fields
+    if (!issueForm.issue_type || !issueForm.description || !issueForm.reporter_name) {
+      alert('Please fill in all required fields (Issue Type, Description, Your Name)');
+      return;
+    }
+
+    setIssueSubmitting(true);
+
+    try {
+      const issueData = {
+        ...issueForm,
+        pincode: prediction.pincode,
+        district: prediction.district,
+        state: prediction.state
+      };
+
+      const res = await fetch("http://localhost:5001/api/issues/report", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(issueData)
+      });
+
+      const result = await res.json();
+      if (!res.ok) {
+        throw new Error(result?.error || "Failed to submit issue");
+      }
+
+      alert('Issue reported successfully! We will review and take appropriate action.');
+      
+      // Reset form
+      setIssueForm({
+        issue_type: '',
+        description: '',
+        reporter_name: '',
+        reporter_contact: '',
+        location_details: '',
+        severity: 'medium'
+      });
+      setShowIssueForm(false);
+      
+    } catch (err) {
+      console.error("Issue submission error:", err);
+      alert('Failed to submit issue. Please try again later.');
+    } finally {
+      setIssueSubmitting(false);
     }
   };
 
@@ -389,12 +450,151 @@ export default function UserDashboard() {
                   />
                 </div>
                 
-                {/* Detailed Analysis Tabs */}
-                <AnalysisTabs 
-                  featureImportance={prediction.feature_importance}
-                  historical={prediction.historical}
-                  riskLevel={prediction.flood_severity}
-                />
+                {/* Issue Reporting Section */}
+                <div className="mt-8 bg-gradient-to-r from-[#e3f2fd] to-[#f8fafc] rounded-2xl border border-[#bbdefb] p-6" style={{border: '3px solid red'}}>
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center gap-3">
+                      <MessageSquare className="w-6 h-6 text-[#1565c0]" />
+                      <h3 className="text-xl font-bold text-[#0d1b2a]">Report an Issue in This Area</h3>
+                    </div>
+                    <Button
+                      onClick={() => setShowIssueForm(!showIssueForm)}
+                      variant="outline"
+                      className="border-[#1565c0] text-[#1565c0] hover:bg-[#1565c0] hover:text-white"
+                    >
+                      {showIssueForm ? 'Cancel' : 'Report Issue'}
+                    </Button>
+                  </div>
+                  
+                  <p className="text-[#64748b] mb-4">
+                    Help us improve flood monitoring by reporting issues in your area. Your reports help authorities take timely action.
+                  </p>
+                  
+                  {showIssueForm && (
+                    <div className="bg-white rounded-xl p-6 space-y-4">
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                          <label className="block text-sm font-medium text-[#0d1b2a] mb-2">
+                            Issue Type <span className="text-red-500">*</span>
+                          </label>
+                          <Select value={issueForm.issue_type} onValueChange={(value) => setIssueForm({...issueForm, issue_type: value})}>
+                            <SelectTrigger className="h-12">
+                              <SelectValue placeholder="Select issue type" />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value="waterlogging">Waterlogging</SelectItem>
+                              <SelectItem value="drainage_blockage">Drainage Blockage</SelectItem>
+                              <SelectItem value="flood_damage">Flood Damage</SelectItem>
+                              <SelectItem value="infrastructure_issue">Infrastructure Issue</SelectItem>
+                              <SelectItem value="prediction_error">Prediction Error</SelectItem>
+                              <SelectItem value="other">Other</SelectItem>
+                            </SelectContent>
+                          </Select>
+                        </div>
+                        
+                        <div>
+                          <label className="block text-sm font-medium text-[#0d1b2a] mb-2">
+                            Severity
+                          </label>
+                          <Select value={issueForm.severity} onValueChange={(value) => setIssueForm({...issueForm, severity: value})}>
+                            <SelectTrigger className="h-12">
+                              <SelectValue placeholder="Select severity" />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value="low">Low</SelectItem>
+                              <SelectItem value="medium">Medium</SelectItem>
+                              <SelectItem value="high">High</SelectItem>
+                              <SelectItem value="critical">Critical</SelectItem>
+                            </SelectContent>
+                          </Select>
+                        </div>
+                      </div>
+                      
+                      <div>
+                        <label className="block text-sm font-medium text-[#0d1b2a] mb-2">
+                          Description <span className="text-red-500">*</span>
+                        </label>
+                        <textarea
+                          value={issueForm.description}
+                          onChange={(e) => setIssueForm({...issueForm, description: e.target.value})}
+                          placeholder="Describe the issue in detail..."
+                          className="w-full h-24 px-4 py-3 border border-[#bbdefb] rounded-xl focus:border-[#0288d1] focus:ring-[#0288d1]/20 resize-none"
+                          required
+                        />
+                      </div>
+                      
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                          <label className="block text-sm font-medium text-[#0d1b2a] mb-2">
+                            Your Name <span className="text-red-500">*</span>
+                          </label>
+                          <Input
+                            type="text"
+                            value={issueForm.reporter_name}
+                            onChange={(e) => setIssueForm({...issueForm, reporter_name: e.target.value})}
+                            placeholder="Enter your name"
+                            className="h-12"
+                            required
+                          />
+                        </div>
+                        
+                        <div>
+                          <label className="block text-sm font-medium text-[#0d1b2a] mb-2">
+                            Contact Number (Optional)
+                          </label>
+                          <Input
+                            type="tel"
+                            value={issueForm.reporter_contact}
+                            onChange={(e) => setIssueForm({...issueForm, reporter_contact: e.target.value})}
+                            placeholder="Enter contact number"
+                            className="h-12"
+                          />
+                        </div>
+                      </div>
+                      
+                      <div>
+                        <label className="block text-sm font-medium text-[#0d1b2a] mb-2">
+                          Location Details (Optional)
+                        </label>
+                        <Input
+                          type="text"
+                          value={issueForm.location_details}
+                          onChange={(e) => setIssueForm({...issueForm, location_details: e.target.value})}
+                          placeholder="Specific location details (landmark, street, etc.)"
+                          className="h-12"
+                        />
+                      </div>
+                      
+                      <div className="flex items-center justify-end gap-4 pt-4">
+                        <Button
+                          type="button"
+                          onClick={() => setShowIssueForm(false)}
+                          variant="outline"
+                          className="border-[#64748b] text-[#64748b] hover:bg-[#64748b] hover:text-white"
+                        >
+                          Cancel
+                        </Button>
+                        <Button
+                          onClick={handleIssueSubmit}
+                          disabled={issueSubmitting}
+                          className="bg-gradient-to-r from-[#1a237e] to-[#0288d1] hover:from-[#1565c0] hover:to-[#0288d1] text-white"
+                        >
+                          {issueSubmitting ? (
+                            <>
+                              <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin mr-2" />
+                              Submitting...
+                            </>
+                          ) : (
+                            <>
+                              <Send className="w-4 h-4 mr-2" />
+                              Submit Report
+                            </>
+                          )}
+                        </Button>
+                      </div>
+                    </div>
+                  )}
+                </div>
               </section>
             )}
           </>

@@ -42,29 +42,66 @@ const STATE_CARDS = [
   { name: "West Bengal", zone: "East", risk: "Extreme", rainfall: 1582, events: 41, soil: "Alluvial / coastal saline", drainage: "Ganga-Brahmaputra delta, Sundarbans" }
 ];
 
-// District cards for AP and Telangana only
+// District cards for AP and Telangana - complete data from dataset
 const DISTRICT_CARDS = {
   "Andhra Pradesh": [
-    { name: "Visakhapatnam", rainfall: 1100, events: 8, waterlogDays: 12, risk: "High" },
-    { name: "Kakinada", rainfall: 1080, events: 8, waterlogDays: 12, risk: "High" },
-    { name: "East Godavari", rainfall: 1120, events: 8, waterlogDays: 13, risk: "High" },
-    { name: "Krishna", rainfall: 970, events: 6, waterlogDays: 10, risk: "Moderate" },
-    { name: "Guntur", rainfall: 850, events: 5, waterlogDays: 8, risk: "Moderate" },
-    { name: "Nellore", rainfall: 900, events: 6, waterlogDays: 9, risk: "Moderate" },
-    { name: "Tirupati", rainfall: 920, events: 4, waterlogDays: 6, risk: "Moderate" },
-    { name: "Anantapur", rainfall: 550, events: 2, waterlogDays: 3, risk: "Low" },
-    { name: "Kurnool", rainfall: 680, events: 3, waterlogDays: 5, risk: "Low" }
+    { name: "Alluri Sitharama Raju", rainfall: 1276, events: 5, waterlogDays: 9, risk: "High" },
+    { name: "Anakapalli", rainfall: 1145, events: 5, waterlogDays: 10, risk: "High" },
+    { name: "Anantapur", rainfall: 676, events: 5, waterlogDays: 8, risk: "Low" },
+    { name: "Bapatla", rainfall: 897, events: 5, waterlogDays: 16, risk: "High" },
+    { name: "Chittoor", rainfall: 877, events: 6, waterlogDays: 11, risk: "Moderate" },
+    { name: "East Godavari", rainfall: 1145, events: 5, waterlogDays: 16, risk: "High" },
+    { name: "Eluru", rainfall: 1080, events: 5, waterlogDays: 10, risk: "High" },
+    { name: "Guntur", rainfall: 829, events: 4, waterlogDays: 7, risk: "Moderate" },
+    { name: "Kadapa", rainfall: 721, events: 5, waterlogDays: 11, risk: "Moderate" },
+    { name: "Konaseema", rainfall: 1368, events: 5, waterlogDays: 11, risk: "High" },
+    { name: "Krishna", rainfall: 998, events: 5, waterlogDays: 5, risk: "Moderate" },
+    { name: "Kurnool", rainfall: 651, events: 5, waterlogDays: 10, risk: "Moderate" },
+    { name: "Nellore", rainfall: 990, events: 5, waterlogDays: 9, risk: "Moderate" },
+    { name: "Parvathipuram Manyam", rainfall: 1276, events: 5, waterlogDays: 9, risk: "High" },
+    { name: "Prakasam", rainfall: 803, events: 5, waterlogDays: 11, risk: "Moderate" },
+    { name: "Sri Sathya Sai", rainfall: 676, events: 5, waterlogDays: 8, risk: "Low" },
+    { name: "Srikakulam", rainfall: 1213, events: 5, waterlogDays: 16, risk: "High" },
+    { name: "Tirupati", rainfall: 916, events: 6, waterlogDays: 16, risk: "High" },
+    { name: "Visakhapatnam", rainfall: 1131, events: 5, waterlogDays: 14, risk: "High" },
+    { name: "Vizianagaram", rainfall: 1107, events: 5, waterlogDays: 10, risk: "High" },
+    { name: "West Godavari", rainfall: 1145, events: 6, waterlogDays: 18, risk: "High" }
   ],
   "Telangana": [
-    { name: "Hyderabad", rainfall: 850, events: 12, waterlogDays: 18, risk: "High" },
-    { name: "Medchal-Malkajgiri", rainfall: 840, events: 10, waterlogDays: 15, risk: "High" },
-    { name: "Warangal Urban", rainfall: 980, events: 9, waterlogDays: 14, risk: "High" },
-    { name: "Khammam", rainfall: 1100, events: 8, waterlogDays: 13, risk: "High" },
-    { name: "Bhadradri Kothagudem", rainfall: 1150, events: 9, waterlogDays: 15, risk: "Extreme" },
-    { name: "Nizamabad", rainfall: 1050, events: 7, waterlogDays: 11, risk: "High" },
-    { name: "Karimnagar", rainfall: 920, events: 6, waterlogDays: 9, risk: "Moderate" },
-    { name: "Mahbubnagar", rainfall: 680, events: 3, waterlogDays: 5, risk: "Moderate" },
-    { name: "Nalgonda", rainfall: 730, events: 4, waterlogDays: 7, risk: "Moderate" }
+    { name: "Adilabad", rainfall: 1068, events: 5, waterlogDays: 10, risk: "High" },
+    { name: "Asifabad", rainfall: 1143, events: 4, waterlogDays: 6, risk: "High" },
+    { name: "Bhadradri Kothagudem", rainfall: 1299, events: 5, waterlogDays: 12, risk: "High" },
+    { name: "Gadwal", rainfall: 671, events: 5, waterlogDays: 13, risk: "Moderate" },
+    { name: "Hanamkonda", rainfall: 1006, events: 5, waterlogDays: 10, risk: "High" },
+    { name: "Hyderabad", rainfall: 846, events: 5, waterlogDays: 11, risk: "Moderate" },
+    { name: "Jagtial", rainfall: 1098, events: 6, waterlogDays: 11, risk: "High" },
+    { name: "Jangaon", rainfall: 872, events: 4, waterlogDays: 12, risk: "Moderate" },
+    { name: "Jayashankar Bhupalpally", rainfall: 1228, events: 5, waterlogDays: 14, risk: "High" },
+    { name: "Kamareddy", rainfall: 901, events: 5, waterlogDays: 9, risk: "Moderate" },
+    { name: "Karimnagar", rainfall: 900, events: 4, waterlogDays: 8, risk: "Moderate" },
+    { name: "Khammam", rainfall: 1039, events: 5, waterlogDays: 17, risk: "High" },
+    { name: "Kumuram Bheem", rainfall: 1575, events: 6, waterlogDays: 17, risk: "High" },
+    { name: "Mahabubabad", rainfall: 1149, events: 5, waterlogDays: 12, risk: "High" },
+    { name: "Mahabubnagar", rainfall: 665, events: 5, waterlogDays: 11, risk: "Moderate" },
+    { name: "Mancherial", rainfall: 1179, events: 5, waterlogDays: 12, risk: "High" },
+    { name: "Medak", rainfall: 980, events: 5, waterlogDays: 9, risk: "Moderate" },
+    { name: "Medchal Malkajgiri", rainfall: 829, events: 5, waterlogDays: 11, risk: "Moderate" },
+    { name: "Mulugu", rainfall: 1428, events: 5, waterlogDays: 12, risk: "High" },
+    { name: "Nagarkurnool", rainfall: 766, events: 5, waterlogDays: 15, risk: "High" },
+    { name: "Nalgonda", rainfall: 808, events: 6, waterlogDays: 10, risk: "Moderate" },
+    { name: "Narayanpet", rainfall: 661, events: 5, waterlogDays: 10, risk: "Moderate" },
+    { name: "Nirmal", rainfall: 1075, events: 5, waterlogDays: 10, risk: "High" },
+    { name: "Nizamabad", rainfall: 976, events: 5, waterlogDays: 10, risk: "Moderate" },
+    { name: "Peddapalli", rainfall: 1016, events: 5, waterlogDays: 14, risk: "High" },
+    { name: "Rajanna Sircilla", rainfall: 1060, events: 5, waterlogDays: 12, risk: "High" },
+    { name: "Rangareddy", rainfall: 726, events: 4, waterlogDays: 12, risk: "Moderate" },
+    { name: "Sangareddy", rainfall: 887, events: 5, waterlogDays: 6, risk: "Moderate" },
+    { name: "Siddipet", rainfall: 966, events: 5, waterlogDays: 12, risk: "Moderate" },
+    { name: "Suryapet", rainfall: 879, events: 5, waterlogDays: 7, risk: "Moderate" },
+    { name: "Vikarabad", rainfall: 896, events: 6, waterlogDays: 13, risk: "Moderate" },
+    { name: "Wanaparthy", rainfall: 752, events: 5, waterlogDays: 14, risk: "Moderate" },
+    { name: "Warangal", rainfall: 957, events: 5, waterlogDays: 17, risk: "High" },
+    { name: "Yadadri Bhuvanagiri", rainfall: 769, events: 4, waterlogDays: 6, risk: "Low" }
   ]
 };
 
@@ -77,6 +114,259 @@ const riskColor = (risk) => {
     default: return 'bg-slate-50 text-slate-700 border-slate-200';
   }
 };
+
+// City Planner Section Component
+function CityPlannerSection() {
+  const [selectedState, setSelectedState] = useState('');
+  const [selectedDistrict, setSelectedDistrict] = useState('');
+  const [issues, setIssues] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [solvedIssues, setSolvedIssues] = useState([]);
+
+  const states = ['Andhra Pradesh', 'Telangana'];
+  const districts = {
+    'Andhra Pradesh': [
+      'Alluri Sitharama Raju', 'Anakapalli', 'Anantapur', 'Bapatla', 'Chittoor', 
+      'East Godavari', 'Eluru', 'Guntur', 'Kadapa', 'Konaseema', 'Krishna', 'Kurnool', 
+      'Nellore', 'Parvathipuram Manyam', 'Prakasam', 'Sri Sathya Sai', 'Srikakulam', 
+      'Tirupati', 'Visakhapatnam', 'Vizianagaram', 'West Godavari'
+    ],
+    'Telangana': [
+      'Adilabad', 'Asifabad', 'Bhadradri Kothagudem', 'Gadwal', 'Hanamkonda', 'Hyderabad', 
+      'Jagtial', 'Jangaon', 'Jayashankar Bhupalpally', 'Kamareddy', 'Karimnagar', 'Khammam', 
+      'Kumuram Bheem', 'Mahabubabad', 'Mahabubnagar', 'Mancherial', 'Medak', 'Medchal Malkajgiri', 
+      'Mulugu', 'Nagarkurnool', 'Nalgonda', 'Narayanpet', 'Nirmal', 'Nizamabad', 'Peddapalli', 
+      'Rajanna Sircilla', 'Rangareddy', 'Sangareddy', 'Siddipet', 'Suryapet', 'Vikarabad', 
+      'Wanaparthy', 'Warangal', 'Yadadri Bhuvanagiri'
+    ]
+  };
+
+  useEffect(() => {
+    if (selectedState && selectedDistrict) {
+      fetchDistrictIssues();
+    }
+  }, [selectedState, selectedDistrict]);
+
+  const fetchDistrictIssues = async () => {
+    setLoading(true);
+    try {
+      console.log('Fetching issues for:', selectedState, selectedDistrict);
+      const url = `http://localhost:5001/api/issues/district/${selectedState}/${selectedDistrict}`;
+      console.log('Request URL:', url);
+      
+      const response = await fetch(url);
+      console.log('Response status:', response.status);
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      console.log('Response data:', data);
+      
+      if (data.success) {
+        setIssues(data.issues);
+        console.log('Issues loaded:', data.issues.length);
+      } else {
+        console.error('Failed to fetch issues:', data.error);
+      }
+    } catch (error) {
+      console.error('Error fetching issues:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const markIssueAsSolved = async (issueId) => {
+    try {
+      console.log('Marking issue as solved:', issueId);
+      const url = `http://localhost:5001/api/issues/${issueId}/status`;
+      console.log('Request URL:', url);
+      
+      const response = await fetch(url, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          status: 'solved',
+          status_notes: 'Issue resolved by City Planner'
+        })
+      });
+      
+      console.log('Response status:', response.status);
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      console.log('Response data:', data);
+      
+      if (data.success) {
+        console.log('Issue marked as solved successfully');
+        // Refresh the issues list
+        await fetchDistrictIssues();
+        alert('Issue marked as solved successfully!');
+      } else {
+        console.error('Failed to mark issue as solved:', data.error);
+        alert('Failed to mark issue as solved: ' + data.error);
+      }
+    } catch (error) {
+      console.error('Error marking issue as solved:', error);
+      alert('Network error: ' + error.message);
+    }
+  };
+
+  return (
+    <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+      <div className="p-6 border-b border-[#e3f2fd]">
+        <h2 className="text-xl font-bold text-[#0d1b2a] flex items-center gap-2">
+          <FileText className="w-6 h-6 text-[#1565c0]" />
+          City Planner Portal
+        </h2>
+      </div>
+      
+      {/* Location Selection */}
+      <div className="p-6 border-b border-[#e3f2fd]">
+        <h3 className="text-lg font-semibold text-[#0d1b2a] mb-4 flex items-center gap-2">
+          <MapPin className="w-5 h-5 text-[#1565c0]" />
+          Select District
+        </h3>
+        
+        <div className="grid md:grid-cols-2 gap-4">
+          <div>
+            <label className="block text-sm font-medium text-[#64748b] mb-2">State</label>
+            <select 
+              value={selectedState} 
+              onChange={(e) => setSelectedState(e.target.value)}
+              className="w-full p-3 border border-[#d1d5db] rounded-lg"
+            >
+              <option value="">Select state</option>
+              {states.map(state => (
+                <option key={state} value={state}>{state}</option>
+              ))}
+            </select>
+          </div>
+          
+          <div>
+            <label className="block text-sm font-medium text-[#64748b] mb-2">District</label>
+            <select 
+              value={selectedDistrict} 
+              onChange={(e) => setSelectedDistrict(e.target.value)}
+              disabled={!selectedState}
+              className="w-full p-3 border border-[#d1d5db] rounded-lg disabled:bg-[#f9fafb]"
+            >
+              <option value="">Select district</option>
+              {selectedState && districts[selectedState]?.map(district => (
+                <option key={district} value={district}>{district}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+      </div>
+
+      {/* Issues List */}
+      <div className="p-6">
+        <h3 className="text-lg font-semibold text-[#0d1b2a] mb-4">
+          Reported Issues ({issues.length})
+        </h3>
+        
+        {loading ? (
+          <div className="p-8 text-center">
+            <div className="w-8 h-8 border-4 border-[#1565c0] border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+            <p className="text-[#64748b]">Loading issues...</p>
+          </div>
+        ) : issues.length === 0 ? (
+          <div className="p-8 text-center">
+            <FileText className="w-16 h-16 text-[#e3f2fd] mx-auto mb-4" />
+            <p className="text-[#64748b]">
+              {selectedState && selectedDistrict 
+                ? 'No issues found for this district' 
+                : 'Please select a state and district to view issues'}
+            </p>
+          </div>
+        ) : (
+          <div className="space-y-4">
+            {issues.map((issue, index) => (
+              <div key={issue.id || index} className="border border-[#e3f2fd] rounded-lg p-4 bg-[#f8fafc]">
+                <div className="flex items-start gap-3 mb-3">
+                  <div className="flex items-center gap-2">
+                    <span className="px-3 py-1 rounded-full text-xs font-semibold border bg-yellow-50 text-yellow-600 border-yellow-200">
+                      {issue.status}
+                    </span>
+                    <span className="px-3 py-1 rounded-full text-xs font-semibold border bg-orange-50 text-orange-600 border-orange-200">
+                      {issue.severity}
+                    </span>
+                  </div>
+                </div>
+                
+                <h4 className="text-lg font-semibold text-[#0d1b2a] mb-2 capitalize">
+                  Issue #{index + 1}: {issue.issue_type?.replace('_', ' ') || 'Unknown Issue'}
+                </h4>
+                
+                <p className="text-[#64748b] mb-3">{issue.description}</p>
+                
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+                  <div>
+                    <p className="text-[#64748b]">Pincode</p>
+                    <p className="font-semibold text-[#0d1b2a]">{issue.pincode}</p>
+                  </div>
+                  <div>
+                    <p className="text-[#64748b]">Reporter</p>
+                    <p className="font-semibold text-[#0d1b2a]">{issue.reporter_name}</p>
+                  </div>
+                  <div>
+                    <p className="text-[#64748b]">Severity</p>
+                    <p className="font-semibold text-[#0d1b2a]">{issue.severity}</p>
+                  </div>
+                  <div>
+                    <p className="text-[#64748b]">Reported</p>
+                    <p className="font-semibold text-[#0d1b2a]">
+                      {new Date(issue.created_at).toLocaleDateString()}
+                    </p>
+                  </div>
+                </div>
+                
+                {issue.location_details && (
+                  <div className="mt-3 text-sm">
+                    <p className="text-[#64748b]">Location</p>
+                    <p className="font-semibold text-[#0d1b2a]">{issue.location_details}</p>
+                  </div>
+                )}
+                
+                {issue.status_notes && (
+                  <div className="mt-3 text-sm">
+                    <p className="text-[#64748b]">Status Notes</p>
+                    <p className="font-semibold text-[#0d1b2a]">{issue.status_notes}</p>
+                  </div>
+                )}
+                
+                {/* Action Button */}
+                <div className="mt-4 flex justify-end">
+                  {issue.status !== 'solved' ? (
+                    <Button
+                      onClick={() => markIssueAsSolved(issue.id)}
+                      className="bg-green-600 hover:bg-green-700 text-white"
+                      size="sm"
+                    >
+                      Mark as Solved
+                    </Button>
+                  ) : (
+                    <div className="flex items-center gap-2 text-green-600 text-sm font-medium">
+                      <div className="w-4 h-4 bg-green-600 rounded-full"></div>
+                      Issue Resolved
+                    </div>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
 
 export default function PlannerDashboard() {
   const navigate = useNavigate();
@@ -101,7 +391,7 @@ export default function PlannerDashboard() {
   useEffect(() => {
     const storedUser = sessionStorage.getItem('floodsense_user');
     if (!storedUser) {
-      navigate('/Login');
+      navigate('/');
       return;
     }
     const userData = JSON.parse(storedUser);
@@ -121,7 +411,7 @@ export default function PlannerDashboard() {
 
   const handleLogout = () => {
     sessionStorage.removeItem('floodsense_user');
-    navigate('/Login');
+    navigate('/');
   };
 
   const runSimulation = async () => {
@@ -192,7 +482,7 @@ export default function PlannerDashboard() {
         
         {/* Desktop Nav */}
         <nav className="hidden lg:flex items-center gap-8">
-          {['Map View', 'Custom Simulation'].map((item) => (
+          {['Map View', 'City Planner', 'Custom Simulation'].map((item) => (
             <button
               key={item}
               onClick={() => setActiveNav(item)}
@@ -236,7 +526,7 @@ export default function PlannerDashboard() {
       {/* Mobile Menu */}
       {mobileMenuOpen && (
         <div className="fixed top-16 left-0 right-0 z-40 bg-[#1a237e] border-b border-[#0288d1] lg:hidden">
-          {['Map View', 'Custom Simulation'].map((item) => (
+          {['Map View', 'City Planner', 'Custom Simulation'].map((item) => (
             <button
               key={item}
               onClick={() => { setActiveNav(item); setMobileMenuOpen(false); }}
@@ -444,6 +734,15 @@ export default function PlannerDashboard() {
                   </div>
                 </div>
               </div>
+            </div>
+          </section>
+        )}
+
+        {/* City Planner Section */}
+        {activeNav === 'City Planner' && (
+          <section className="p-4 lg:p-6">
+            <div className="max-w-7xl mx-auto">
+              <CityPlannerSection />
             </div>
           </section>
         )}

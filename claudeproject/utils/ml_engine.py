@@ -43,8 +43,8 @@ class MLEngine:
         )
 
         self.models_dir = os.path.join(base_dir, "models")
-        self.severity_model_path = os.path.join(self.models_dir, "flood_severity_rf.pkl")
-        self.waterlogging_model_path = os.path.join(self.models_dir, "waterlogging_days_lr.pkl")
+        self.severity_model_path = os.path.join(self.models_dir, "rf_severity_6feat.pkl")
+        self.waterlogging_model_path = os.path.join(self.models_dir, "lr_waterlogging_6feat.pkl")
 
         self.severity_model: RandomForestClassifier | None = None
         self.waterlogging_model: LinearRegression | None = None
@@ -168,18 +168,18 @@ class MLEngine:
         assert self.severity_model is not None
         assert self.waterlogging_model is not None
 
-        features_row = pd.DataFrame(
-            [
-                {
-                    "Monsoon_Rainfall_mm": float(rainfall_intensity),
-                    "Drainage_Quality_Enc": self._map_drainage_condition_to_enc(drainage_condition),
-                    "Permeability_mm_per_hr": self._map_soil_perm_to_mmhr(soil_permeability),
-                    "Urban_Percent": self._map_land_use_to_urban_percent(land_use_type),
-                    "Breach_History_Enc": int(historical_flood_records),
-                    "Mean_Elevation_m": float(elevation),
-                }
-            ]
-        )
+        # Create features using the 6 features we can actually provide
+        urban_percent = self._map_land_use_to_urban_percent(land_use_type)
+        drainage_enc = self._map_drainage_condition_to_enc(drainage_condition)
+        
+        features_row = pd.DataFrame([{
+            "Monsoon_Rainfall_mm": float(rainfall_intensity),
+            "Drainage_Quality_Enc": drainage_enc,
+            "Permeability_mm_per_hr": self._map_soil_perm_to_mmhr(soil_permeability),
+            "Urban_Percent": urban_percent,
+            "Breach_History_Enc": int(historical_flood_records),
+            "Mean_Elevation_m": float(elevation),
+        }])
 
         proba = self.severity_model.predict_proba(features_row)[0]
         pred_class = int(np.argmax(proba))

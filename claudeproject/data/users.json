@@ -76,5 +76,11 @@
     "name": "mano21",
     "type": "planner",
     "access": "Telangana"
+  },
+  "lasya222": {
+    "password": "FloodSense@Master",
+    "name": "admin.floodsense",
+    "type": "planner",
+    "access": ""
   }
 }

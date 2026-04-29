@@ -90,13 +90,15 @@ export const AuthProvider = ({ children }) => {
   const logout = (shouldRedirect = true) => {
     setUser(null);
     setIsAuthenticated(false);
+    // Clear session storage
+    sessionStorage.removeItem('floodsense_user');
     if (shouldRedirect) {
-      window.location.href = '/Login';
+      window.location.href = '/';
     }
   };
 
   const navigateToLogin = () => {
-    window.location.href = '/Login';
+    window.location.href = '/';
   };
 
   return (

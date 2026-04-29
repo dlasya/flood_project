@@ -3,6 +3,7 @@ from flask_cors import CORS
 
 from routes.predictions import predictions_bp
 from routes.auth import auth_bp
+from routes.issues import issues_bp
 
 app = Flask(__name__)
 
@@ -10,8 +11,10 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 
 app.register_blueprint(predictions_bp, url_prefix="/api/predictions")
 app.register_blueprint(auth_bp, url_prefix="/api/auth")
+app.register_blueprint(issues_bp, url_prefix="/api/issues")
 print("Prediction routes registered at /api/predictions")
 print("Auth routes registered at /api/auth")
+print("Issues routes registered at /api/issues")
 
 @app.route('/')
 def home():
